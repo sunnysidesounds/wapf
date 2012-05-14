@@ -32,7 +32,7 @@ If using Ubuntu, don't forget to update:
 	
 Unix/Linux Package:
 *	Install python selenium webdriver 
-	*	[sudo] easy_install selenium or [sudo] pip install selenium
+	*	""[sudo] easy_install selenium or [sudo] pip install selenium""
 *	Install Firefox and other packages to run headless:
 	*	[sudo] sudo apt-get install firefox
 	*	[sudo] apt-get install xvfb
