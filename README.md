@@ -31,17 +31,17 @@ If using Ubuntu, don't forget to update:
 	[sudo] aptitude update && [sudo] aptitude dist-upgrade
 	
 Unix/Linux Package:
--Install python selenium webdriver 
--> [sudo] easy_install selenium or [sudo] pip install selenium
--Install Firefox and other packages to run headless:
+*	Install python selenium webdriver 
+	*	[sudo] easy_install selenium or [sudo] pip install selenium
+*	Install Firefox and other packages to run headless:
 -> [sudo] sudo apt-get install firefox
 -> [sudo] apt-get install xvfb
 -> [sudo] apt-get install xfonts-cyrillic (This is to fix this error when starting firefox (Missing fonts): Xlib:  extension "RANDR" missing on display ":99".`)
--Install Java for headless 
+*	Install Java for headless 
 -> [sudo] apt-get install openjdk-6-jre-headless
--Install curl for w3c validator 
+*	Install curl for w3c validator 
 -> [sudo] apt-get install curl
--Install termcolor for terminal color
+*	Install termcolor for terminal color
 -> [sudo] pip install termcolor
 	
 ##### Running in Headless:
