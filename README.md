@@ -27,8 +27,8 @@ This framework has been tested on Ubuntu 11.10 and Mac OS X 10.6.8 and should wo
   (Install from SVN/Git Source and installed the required linux packages): 
 	
  Source:
- SVN: http://jason@developer.twosmallfeet.com/personal
- Git: Coming soon
+ Git: https://github.com/sunnysidesounds/wapf
+ 
  
  If using Ubuntu, don't forget to update: [sudo] aptitude update && [sudo] aptitude dist-upgrade
 	
