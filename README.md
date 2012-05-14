@@ -1,6 +1,6 @@
 
-WHAT IS WAPF?
-------------------------------
+#WHAT IS WAPF?
+
 Wapf is a web analyzing and profiling framework built with python and selenium. It allows you to test and extract many different kinds of data that can be used for a multitude of purposes. It can basically mimc a user (i.e. functional testing) while extracting other data such as speed metrics, keyword density, profiling information, w3c validation data and more. (See the feature section for a complete list) The framework was designed to make it easy to run multiple functional testing and data extracting commands all in a single command. (See the usage section on how to execute commands)
 	
 
