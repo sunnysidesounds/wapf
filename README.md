@@ -6,7 +6,7 @@ Wapf is a web analyzing and profiling framework built with python and selenium. 
 
 ## FEATURES:
 *	Multiprocessing recursive crawler
-*	Multiprocess multiple core and custom scripts
+*	Multiprocess core and custom scripts
 *	Custom configuration file management system
 *	Validate using w3c validation
 *	Profile web pages using selenium standalone server
