@@ -11,8 +11,8 @@ Wapf is a web analyzing and profiling framework built with python and selenium. 
 *	Validate using w3c validation
 *	Profile web pages using selenium standalone server
 *	Write functional tests (requires selenium module to be installed)
-*	Parse and manipulate web pages using the BeauitifulSoup library
-	*	Grab links, content, js, css and images
+*	Parse and manipulate web pages using the BeauitifulSoup library (TODO: Update this library)
+	*	Grab links, content, js, css and images and just about anything.
 *	Take screenshots using firefox and chrome
 *	Do a keyword density test
 *	File manipulation and log file formatting
