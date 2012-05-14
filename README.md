@@ -23,7 +23,7 @@ Wapf is a web analyzing and profiling framework built with python and selenium. 
 This framework has been tested on Ubuntu 11.10 and Mac OS X 10.6.8 and should work on any unix/linux distro. Windows has not been tested! 
 	
 #### To setup the framework you have two choices:
-1) INSTALL OWN YOUR OWN SYSTEM: (Install from SVN/Git Source and installed the required linux packages): 
+### 1) INSTALL OWN YOUR OWN SYSTEM: (Install from SVN/Git Source and installed the required linux packages): 
 	
  Source:
  SVN: http://jason@developer.twosmallfeet.com/personal
@@ -57,7 +57,7 @@ This framework has been tested on Ubuntu 11.10 and Mac OS X 10.6.8 and should wo
 	
 
 
-2) DOWNLOAD AND USE VM: (Download and use the Wapf Ubuntu VM)
+### 2) DOWNLOAD AND USE VM: (Download and use the Wapf Ubuntu VM)
 	
  I have created a VM (with VMware) that has everything already setup and ready to run out of the box. If you decide to use this option. Just download and install the VMware image. 
 	
