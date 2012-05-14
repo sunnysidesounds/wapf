@@ -86,15 +86,8 @@ The basic:
 	Mode 3: Single processing utility scripting
 	
 	
+More details coming soon….
 
-	
-ONLINE RESOURCES:
-------------------------------
-Coming soon!
-
-
-KNOWN BUGS
-------------------------------
  
  
 
