@@ -1,12 +1,3 @@
-################################################################################
-## wapf --> Web Analyzing & Profiling Framework
-## AUTHOR: Jason R Alexander
-## MAIL: sunnysidesounds@gmail.com
-## <version>
-################################################################################
-	
-README & HELP FILE:
-
 
 WHAT IS WAPF?
 ------------------------------
