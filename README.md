@@ -32,17 +32,17 @@ If using Ubuntu, don't forget to update:
 	
 Unix/Linux Package:
 *	Install python selenium webdriver 
-	*	    [sudo] easy_install selenium or [sudo] pip install selenium
+	*	[sudo] easy_install selenium or [sudo] pip install selenium
 *	Install Firefox and other packages to run headless:
--> [sudo] sudo apt-get install firefox
--> [sudo] apt-get install xvfb
--> [sudo] apt-get install xfonts-cyrillic (This is to fix this error when starting firefox (Missing fonts): Xlib:  extension "RANDR" missing on display ":99".`)
+	*	[sudo] sudo apt-get install firefox
+	*	[sudo] apt-get install xvfb
+	*	[sudo] apt-get install xfonts-cyrillic (This is to fix this error when starting firefox (Missing fonts): Xlib:  extension "RANDR" missing on display ":99".`)
 *	Install Java for headless 
--> [sudo] apt-get install openjdk-6-jre-headless
+	*	[sudo] apt-get install openjdk-6-jre-headless
 *	Install curl for w3c validator 
--> [sudo] apt-get install curl
+	*	[sudo] apt-get install curl
 *	Install termcolor for terminal color
--> [sudo] pip install termcolor
+	*	[sudo] pip install termcolor
 	
 ##### Running in Headless:
 If you want to run selenium in the background and in headless mode on start-up. Added these commands to /etc/rc.local
