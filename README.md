@@ -43,7 +43,7 @@ This framework has been tested on Ubuntu 11.10 and Mac OS X 10.6.8 and should wo
 	-Install termcolor for terminal color
 		-> [sudo] pip install termcolor
 	
- ##### Running in Headless:
+##### Running in Headless:
 	If you want to run selenium in the background and in headless mode on start-up. Added these commands to /etc/rc.local
 	
 	Xvfb :4444 -ac -screen 0 1024x768x8 > /tmp/xvfb.log 2>&1 &
