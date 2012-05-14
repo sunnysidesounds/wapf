@@ -27,7 +27,7 @@ This framework has been tested on Ubuntu 11.10 and Mac OS X 10.6.8 and should wo
 	
 ### To setup the framework you have two choices:
 #### 1) INSTALL OWN YOUR OWN SYSTEM: 
-  (Install from SVN/Git Source and installed the required linux packages): 
+  (Install from Git Source and installed the required linux packages): 
 
   
 If using Ubuntu, don't forget to update: 
