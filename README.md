@@ -27,8 +27,7 @@ This framework has been tested on Ubuntu 11.10 and Mac OS X 10.6.8 and should wo
   (Install from SVN/Git Source and installed the required linux packages): 
 
   
-If using Ubuntu, don't forget to update: [sudo] aptitude update && [sudo] aptitude dist-upgrade
-===
+##### If using Ubuntu, don't forget to update: [sudo] aptitude update && [sudo] aptitude dist-upgrade
 	
  Unix/Linux Package:
 	-Install python selenium webdriver 
