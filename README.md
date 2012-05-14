@@ -46,6 +46,7 @@ Unix/Linux Package:
 	
 ##### Running in Headless:
 If you want to run selenium in the background and in headless mode on start-up. Added these commands to /etc/rc.local
+
     Xvfb :4444 -ac -screen 0 1024x768x8 > /tmp/xvfb.log 2>&1 &
     export DISPLAY=localhost:4444.0 && java -jar /home/dev/wapf/selenium_standalone/selenium-server-standalone-2.13.0.jar  > /tmp/selenium_server.log 2>&1 &
 	
