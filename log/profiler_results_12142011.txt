@@ -1,0 +1,1572 @@
+
+[1] Results for: http://www.zumiez.com/shoes.html
+---------------------------------------------------
+
+
+content size: 958.525 kb
+
+http requests: 66
+status 200: 59
+status 204: 1
+status 301: 1
+status 302: 3
+status 403: 2
+
+profiler timing:
+17.340 secs (page load)
+17.311 secs (network: end last request)
+0.006 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 2, 2.488 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.505 kb
+png: 13, 20.150 kb
+unknown: 4, 14.488 kb
+xml: 4, 8.852 kb
+
+http timing detail: (status, method, doc, size, time)
+200, GET, /ClickTracking.aspx, 0, 423 ms
+204, GET, /pixel;r=1138967041;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-1799597341-1323886974007;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323886974007;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 560 ms
+200, GET, /, 4, 2185 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 332 ms
+200, GET, /__utm.gif, 35, 192 ms
+200, GET, /ping, 43, 253 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 344 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 140 ms
+200, GET, /top-nav-background.png, 139, 160 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 139 ms
+200, GET, /newkey, 154, 882 ms
+200, GET, /top-nav-sale-background.png, 158, 247 ms
+302, GET, /ClickTracking.aspx, 209, 1221 ms
+302, GET, /headlines.xml, 232, 2367 ms
+302, GET, /headlines.xml, 256, 391 ms
+301, GET, /rss.xml, 256, 1143 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 142 ms
+200, GET, /hp-dot-off.png, 401, 247 ms
+200, GET, /hp-dot-on.png, 421, 106 ms
+200, GET, /fpc.pl, 505, 12209 ms
+200, GET, /mstag.js, 510, 648 ms
+200, GET, /fb_min.css, 569, 405 ms
+200, GET, /search-go-button.png, 631, 170 ms
+200, GET, /112011-home-1.css, 1198, 458 ms
+200, GET, /ClickTracking.aspx, 1198, 1106 ms
+403, GET, /favicon.ico, 1244, 6 ms
+403, GET, /favicon.ico, 1244, 5 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 428 ms
+200, GET, /builder.js, 1869, 406 ms
+200, GET, /quant.js, 2161, 950 ms
+200, GET, /conversion.js, 2171, 593 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 293 ms
+200, GET, /chartbeat.js, 2581, 1671 ms
+200, GET, /zumiez-logo.jpg, 3955, 243 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 383 ms
+200, GET, /mbox.js, 6149, 293 ms
+200, GET, /cycle.min.js, 6931, 299 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 660 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 293 ms
+200, GET, /rss.xml, 8108, 379 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 284 ms
+200, GET, /atgsvcs.js, 9485, 1283 ms
+200, GET, /ga.js, 12985, 2296 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 469 ms
+200, GET, /, 14287, 332 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 648 ms
+200, GET, /global_1.2.6.css, 16793, 513 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 376 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 472 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 623 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 1040 ms
+200, GET, /ywa.js, 23574, 3221 ms
+200, GET, /preloader.gif, 25293, 669 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 1136 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 2077 ms
+200, GET, /jquery-1.7.js, 33320, 1054 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 1345 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 1853 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 1215 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 946 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 2327 ms
+200, GET, /base-1.4.js, 51466, 1206 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 2513 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 6029 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 1388 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 1920 ms
+
+[2] Results for: http://www.zumiez.com/girls.html
+---------------------------------------------------
+
+
+content size: 958.529 kb
+
+http requests: 66
+status 200: 59
+status 204: 1
+status 301: 1
+status 302: 3
+status 403: 2
+
+profiler timing:
+20.365 secs (page load)
+20.339 secs (network: end last request)
+0.005 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 2, 2.488 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.503 kb
+png: 13, 20.150 kb
+unknown: 4, 14.494 kb
+xml: 4, 8.852 kb
+
+http timing detail: (status, method, doc, size, time)
+200, GET, /ClickTracking.aspx, 0, 488 ms
+204, GET, /pixel;r=65684215;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-1576824242-1323887000847;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323887000847;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 319 ms
+200, GET, /, 4, 474 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 223 ms
+200, GET, /__utm.gif, 35, 371 ms
+200, GET, /ping, 43, 377 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 158 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 187 ms
+200, GET, /top-nav-background.png, 139, 223 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 185 ms
+200, GET, /newkey, 154, 769 ms
+200, GET, /top-nav-sale-background.png, 158, 221 ms
+302, GET, /ClickTracking.aspx, 209, 1989 ms
+302, GET, /headlines.xml, 232, 1133 ms
+302, GET, /headlines.xml, 256, 946 ms
+301, GET, /rss.xml, 256, 1469 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 248 ms
+200, GET, /hp-dot-off.png, 401, 185 ms
+200, GET, /hp-dot-on.png, 421, 149 ms
+200, GET, /fpc.pl, 503, 11177 ms
+200, GET, /mstag.js, 510, 864 ms
+200, GET, /fb_min.css, 569, 1105 ms
+200, GET, /search-go-button.png, 631, 196 ms
+200, GET, /112011-home-1.css, 1198, 858 ms
+200, GET, /ClickTracking.aspx, 1198, 1339 ms
+403, GET, /favicon.ico, 1244, 5 ms
+403, GET, /favicon.ico, 1244, 2 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 539 ms
+200, GET, /builder.js, 1869, 1107 ms
+200, GET, /quant.js, 2161, 479 ms
+200, GET, /conversion.js, 2171, 515 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 436 ms
+200, GET, /chartbeat.js, 2581, 423 ms
+200, GET, /zumiez-logo.jpg, 3955, 271 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 693 ms
+200, GET, /mbox.js, 6149, 363 ms
+200, GET, /cycle.min.js, 6931, 1090 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 1179 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 483 ms
+200, GET, /rss.xml, 8108, 763 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 1365 ms
+200, GET, /atgsvcs.js, 9485, 1399 ms
+200, GET, /ga.js, 12985, 1771 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 724 ms
+200, GET, /, 14293, 851 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 514 ms
+200, GET, /global_1.2.6.css, 16793, 1455 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 362 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 429 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 843 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 1204 ms
+200, GET, /ywa.js, 23574, 2424 ms
+200, GET, /preloader.gif, 25293, 1259 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 1400 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 2023 ms
+200, GET, /jquery-1.7.js, 33320, 3713 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 2133 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 5924 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 1332 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 2510 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 1483 ms
+200, GET, /base-1.4.js, 51466, 1786 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 1681 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 3229 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 3468 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 5321 ms
+
+[3] Results for: http://www.zumiez.com/skate.html
+---------------------------------------------------
+
+
+content size: 1129.624 kb
+
+http requests: 68
+status 200: 61
+status 204: 1
+status 301: 1
+status 302: 3
+status 403: 2
+
+profiler timing:
+19.137 secs (page load)
+19.115 secs (network: end last request)
+0.036 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 2, 2.488 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.505 kb
+png: 13, 20.150 kb
+unknown: 6, 185.587 kb
+xml: 4, 8.852 kb
+
+http timing detail: (status, method, doc, size, time)
+200, GET, /ClickTracking.aspx, 0, 208 ms
+204, GET, /pixel;r=1639110431;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-2106414922-1323887025042;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323887025042;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 149 ms
+200, GET, /, 4, 192 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 359 ms
+200, GET, /__utm.gif, 35, 225 ms
+200, GET, /ping, 43, 362 ms
+200, GET, /ping, 43, 278 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 99 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 111 ms
+200, GET, /top-nav-background.png, 139, 135 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 107 ms
+200, GET, /newkey, 154, 297 ms
+200, GET, /top-nav-sale-background.png, 158, 103 ms
+302, GET, /ClickTracking.aspx, 209, 3496 ms
+302, GET, /headlines.xml, 232, 3484 ms
+302, GET, /headlines.xml, 256, 147 ms
+301, GET, /rss.xml, 256, 590 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 107 ms
+200, GET, /hp-dot-off.png, 401, 107 ms
+200, GET, /hp-dot-on.png, 421, 126 ms
+200, GET, /fpc.pl, 505, 11433 ms
+200, GET, /mstag.js, 510, 1284 ms
+200, GET, /fb_min.css, 569, 333 ms
+200, GET, /search-go-button.png, 631, 99 ms
+200, GET, /112011-home-1.css, 1198, 454 ms
+200, GET, /ClickTracking.aspx, 1198, 791 ms
+403, GET, /favicon.ico, 1244, 10 ms
+403, GET, /favicon.ico, 1244, 2 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 576 ms
+200, GET, /builder.js, 1869, 455 ms
+200, GET, /quant.js, 2161, 580 ms
+200, GET, /conversion.js, 2171, 981 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 512 ms
+200, GET, /chartbeat.js, 2581, 537 ms
+200, GET, /zumiez-logo.jpg, 3955, 436 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 341 ms
+200, GET, /mbox.js, 6149, 318 ms
+200, GET, /cycle.min.js, 6931, 431 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 810 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 397 ms
+200, GET, /rss.xml, 8108, 316 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 404 ms
+200, GET, /atgsvcs.js, 9485, 1743 ms
+200, GET, /ga.js, 12985, 2173 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 803 ms
+200, GET, /, 14237, 319 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 1074 ms
+200, GET, /global_1.2.6.css, 16793, 608 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 730 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 796 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 784 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 1280 ms
+200, GET, /ywa.js, 23574, 2320 ms
+200, GET, /preloader.gif, 25293, 728 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 1385 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 915 ms
+200, GET, /jquery-1.7.js, 33320, 1219 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 2487 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 2566 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 3977 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 2030 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 2050 ms
+200, GET, /base-1.4.js, 51466, 1396 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 2844 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 2569 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 1883 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 2162 ms
+200, GET, /ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAYgdYDIIDgAypcRO0AAP___________________________________________________________________________________________________________________x8yTQHrAAD__________v________________3____3_____-______________________________________3_________________8H, 171106, 6963 ms
+
+[4] Results for: http://www.zumiez.com/boys.html/
+---------------------------------------------------
+
+
+content size: 958.53 kb
+
+http requests: 66
+status 200: 59
+status 204: 1
+status 301: 1
+status 302: 3
+status 403: 2
+
+profiler timing:
+21.254 secs (page load)
+21.231 secs (network: end last request)
+0.005 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 2, 2.488 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.505 kb
+png: 13, 20.150 kb
+unknown: 4, 14.493 kb
+xml: 4, 8.852 kb
+
+http timing detail: (status, method, doc, size, time)
+200, GET, /ClickTracking.aspx, 0, 312 ms
+204, GET, /pixel;r=648695030;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-2128574449-1323887051003;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323887051002;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 144 ms
+200, GET, /, 4, 851 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 284 ms
+200, GET, /__utm.gif, 35, 258 ms
+200, GET, /ping, 43, 530 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 99 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 101 ms
+200, GET, /top-nav-background.png, 139, 211 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 102 ms
+200, GET, /newkey, 154, 513 ms
+200, GET, /top-nav-sale-background.png, 158, 172 ms
+302, GET, /ClickTracking.aspx, 209, 2846 ms
+302, GET, /headlines.xml, 232, 2224 ms
+302, GET, /headlines.xml, 256, 1180 ms
+301, GET, /rss.xml, 256, 1929 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 100 ms
+200, GET, /hp-dot-off.png, 401, 168 ms
+200, GET, /hp-dot-on.png, 421, 98 ms
+200, GET, /fpc.pl, 505, 11171 ms
+200, GET, /mstag.js, 510, 931 ms
+200, GET, /fb_min.css, 569, 849 ms
+200, GET, /search-go-button.png, 631, 215 ms
+200, GET, /112011-home-1.css, 1198, 404 ms
+200, GET, /ClickTracking.aspx, 1198, 2497 ms
+403, GET, /favicon.ico, 1244, 5 ms
+403, GET, /favicon.ico, 1244, 2 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 1102 ms
+200, GET, /builder.js, 1869, 435 ms
+200, GET, /quant.js, 2161, 431 ms
+200, GET, /conversion.js, 2171, 815 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 492 ms
+200, GET, /chartbeat.js, 2581, 680 ms
+200, GET, /zumiez-logo.jpg, 3955, 566 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 681 ms
+200, GET, /mbox.js, 6149, 576 ms
+200, GET, /cycle.min.js, 6931, 719 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 1236 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 308 ms
+200, GET, /rss.xml, 8108, 561 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 602 ms
+200, GET, /atgsvcs.js, 9485, 1193 ms
+200, GET, /ga.js, 12985, 2918 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 1331 ms
+200, GET, /, 14292, 637 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 1084 ms
+200, GET, /global_1.2.6.css, 16793, 1031 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 971 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 895 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 950 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 2776 ms
+200, GET, /ywa.js, 23574, 3047 ms
+200, GET, /preloader.gif, 25293, 894 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 1260 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 1380 ms
+200, GET, /jquery-1.7.js, 33320, 1649 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 5216 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 1742 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 3066 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 4099 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 2382 ms
+200, GET, /base-1.4.js, 51466, 1969 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 4438 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 5122 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 5195 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 2638 ms
+
+[5] Results for: http://www.zumiez.com/accessories.html/
+---------------------------------------------------
+
+
+content size: 958.332 kb
+
+http requests: 66
+status 200: 59
+status 204: 1
+status 301: 1
+status 302: 3
+status 403: 2
+
+profiler timing:
+8.422 secs (page load)
+8.229 secs (network: end last request)
+0.004 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 2, 2.488 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.503 kb
+png: 13, 20.150 kb
+unknown: 4, 14.297 kb
+xml: 4, 8.852 kb
+
+http timing detail: (status, method, doc, size, time)
+200, GET, /ClickTracking.aspx, 0, 225 ms
+204, GET, /pixel;r=262320950;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-500281476-1323887073332;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323887073332;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 650 ms
+200, GET, /, 4, 1936 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 239 ms
+200, GET, /__utm.gif, 35, 112 ms
+200, GET, /ping, 43, 370 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 121 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 120 ms
+200, GET, /top-nav-background.png, 139, 106 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 118 ms
+200, GET, /newkey, 154, 872 ms
+200, GET, /top-nav-sale-background.png, 158, 121 ms
+302, GET, /ClickTracking.aspx, 209, 1444 ms
+302, GET, /headlines.xml, 232, 1850 ms
+302, GET, /headlines.xml, 256, 1109 ms
+301, GET, /rss.xml, 256, 1004 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 120 ms
+200, GET, /hp-dot-off.png, 401, 105 ms
+200, GET, /hp-dot-on.png, 421, 97 ms
+200, GET, /fpc.pl, 503, 2390 ms
+200, GET, /mstag.js, 510, 879 ms
+200, GET, /fb_min.css, 569, 329 ms
+200, GET, /search-go-button.png, 631, 104 ms
+200, GET, /112011-home-1.css, 1198, 329 ms
+200, GET, /ClickTracking.aspx, 1198, 2076 ms
+403, GET, /favicon.ico, 1244, 4 ms
+403, GET, /favicon.ico, 1244, 4 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 456 ms
+200, GET, /builder.js, 1869, 434 ms
+200, GET, /quant.js, 2161, 1129 ms
+200, GET, /conversion.js, 2171, 538 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 185 ms
+200, GET, /chartbeat.js, 2581, 1560 ms
+200, GET, /zumiez-logo.jpg, 3955, 224 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 248 ms
+200, GET, /mbox.js, 6149, 305 ms
+200, GET, /cycle.min.js, 6931, 429 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 1435 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 222 ms
+200, GET, /rss.xml, 8108, 428 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 363 ms
+200, GET, /atgsvcs.js, 9485, 1209 ms
+200, GET, /ga.js, 12985, 3152 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 794 ms
+200, GET, /, 14096, 323 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 535 ms
+200, GET, /global_1.2.6.css, 16793, 795 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 371 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 481 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 582 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 962 ms
+200, GET, /ywa.js, 23574, 2820 ms
+200, GET, /preloader.gif, 25293, 672 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 1712 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 982 ms
+200, GET, /jquery-1.7.js, 33320, 868 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 2741 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 1875 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 2008 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 2177 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 2051 ms
+200, GET, /base-1.4.js, 51466, 1260 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 1435 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 2776 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 2806 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 2449 ms
+
+[6] Results for: http://www.zumiez.com/snow.html/
+---------------------------------------------------
+
+
+content size: 958.391 kb
+
+http requests: 66
+status 200: 59
+status 204: 1
+status 301: 1
+status 302: 3
+status 403: 2
+
+profiler timing:
+18.979 secs (page load)
+18.950 secs (network: end last request)
+0.002 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 2, 2.488 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.503 kb
+png: 13, 20.150 kb
+unknown: 4, 14.356 kb
+xml: 4, 8.852 kb
+
+http timing detail: (status, method, doc, size, time)
+200, GET, /ClickTracking.aspx, 0, 412 ms
+204, GET, /pixel;r=4020187;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-1404973759-1323887088908;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323887088908;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 102 ms
+200, GET, /, 4, 406 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 372 ms
+200, GET, /__utm.gif, 35, 196 ms
+200, GET, /ping, 43, 331 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 93 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 96 ms
+200, GET, /top-nav-background.png, 139, 220 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 97 ms
+200, GET, /newkey, 154, 475 ms
+200, GET, /top-nav-sale-background.png, 158, 217 ms
+302, GET, /ClickTracking.aspx, 209, 2224 ms
+302, GET, /headlines.xml, 232, 1897 ms
+302, GET, /headlines.xml, 256, 1253 ms
+301, GET, /rss.xml, 256, 844 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 135 ms
+200, GET, /hp-dot-off.png, 401, 176 ms
+200, GET, /hp-dot-on.png, 421, 100 ms
+200, GET, /fpc.pl, 503, 11169 ms
+200, GET, /mstag.js, 510, 525 ms
+200, GET, /fb_min.css, 569, 406 ms
+200, GET, /search-go-button.png, 631, 214 ms
+200, GET, /112011-home-1.css, 1198, 413 ms
+200, GET, /ClickTracking.aspx, 1198, 1980 ms
+403, GET, /favicon.ico, 1244, 2 ms
+403, GET, /favicon.ico, 1244, 2 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 852 ms
+200, GET, /builder.js, 1869, 196 ms
+200, GET, /quant.js, 2161, 672 ms
+200, GET, /conversion.js, 2171, 608 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 344 ms
+200, GET, /chartbeat.js, 2581, 155 ms
+200, GET, /zumiez-logo.jpg, 3955, 371 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 310 ms
+200, GET, /mbox.js, 6149, 293 ms
+200, GET, /cycle.min.js, 6931, 245 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 1071 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 371 ms
+200, GET, /rss.xml, 8108, 252 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 421 ms
+200, GET, /atgsvcs.js, 9485, 781 ms
+200, GET, /ga.js, 12985, 2238 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 1244 ms
+200, GET, /, 14155, 248 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 904 ms
+200, GET, /global_1.2.6.css, 16793, 810 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 1124 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 1051 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 1133 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 1151 ms
+200, GET, /ywa.js, 23574, 2692 ms
+200, GET, /preloader.gif, 25293, 647 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 1370 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 1055 ms
+200, GET, /jquery-1.7.js, 33320, 1022 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 2983 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 2873 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 3086 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 3145 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 1276 ms
+200, GET, /base-1.4.js, 51466, 1293 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 3809 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 2024 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 2969 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 3304 ms
+
+[7] Results for: http://www.zumiez.com/pro-riders.html/
+---------------------------------------------------
+
+
+content size: 958.53 kb
+
+http requests: 66
+status 200: 59
+status 204: 1
+status 301: 1
+status 302: 3
+status 403: 2
+
+profiler timing:
+23.148 secs (page load)
+23.118 secs (network: end last request)
+0.003 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 2, 2.488 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.505 kb
+png: 13, 20.150 kb
+unknown: 4, 14.493 kb
+xml: 4, 8.852 kb
+
+http timing detail: (status, method, doc, size, time)
+200, GET, /ClickTracking.aspx, 0, 217 ms
+204, GET, /pixel;r=1886470050;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-1075898501-1323887117011;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323887117011;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 128 ms
+200, GET, /, 4, 196 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 629 ms
+200, GET, /__utm.gif, 35, 406 ms
+200, GET, /ping, 43, 275 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 98 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 100 ms
+200, GET, /top-nav-background.png, 139, 104 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 121 ms
+200, GET, /newkey, 154, 1524 ms
+200, GET, /top-nav-sale-background.png, 158, 107 ms
+302, GET, /ClickTracking.aspx, 209, 4475 ms
+302, GET, /headlines.xml, 232, 3832 ms
+302, GET, /headlines.xml, 256, 1861 ms
+301, GET, /rss.xml, 256, 2096 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 99 ms
+200, GET, /hp-dot-off.png, 401, 102 ms
+200, GET, /hp-dot-on.png, 421, 99 ms
+200, GET, /fpc.pl, 505, 11126 ms
+200, GET, /mstag.js, 510, 1055 ms
+200, GET, /fb_min.css, 569, 681 ms
+200, GET, /search-go-button.png, 631, 102 ms
+200, GET, /112011-home-1.css, 1198, 746 ms
+200, GET, /ClickTracking.aspx, 1198, 927 ms
+403, GET, /favicon.ico, 1244, 3 ms
+403, GET, /favicon.ico, 1244, 6 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 710 ms
+200, GET, /builder.js, 1869, 689 ms
+200, GET, /quant.js, 2161, 1495 ms
+200, GET, /conversion.js, 2171, 1965 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 725 ms
+200, GET, /chartbeat.js, 2581, 939 ms
+200, GET, /zumiez-logo.jpg, 3955, 537 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 881 ms
+200, GET, /mbox.js, 6149, 946 ms
+200, GET, /cycle.min.js, 6931, 682 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 1316 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 901 ms
+200, GET, /rss.xml, 8108, 271 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 652 ms
+200, GET, /atgsvcs.js, 9485, 3071 ms
+200, GET, /ga.js, 12985, 3017 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 798 ms
+200, GET, /, 14292, 912 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 1657 ms
+200, GET, /global_1.2.6.css, 16793, 1747 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 784 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 826 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 799 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 3261 ms
+200, GET, /ywa.js, 23574, 2792 ms
+200, GET, /preloader.gif, 25293, 1373 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 2003 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 1856 ms
+200, GET, /jquery-1.7.js, 33320, 2327 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 4140 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 3901 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 4298 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 3204 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 2792 ms
+200, GET, /base-1.4.js, 51466, 2589 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 4009 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 2177 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 3667 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 3193 ms
+
+[8] Results for: http://www.zumiez.com/brands.html/
+---------------------------------------------------
+
+
+content size: 958.53 kb
+
+http requests: 66
+status 200: 59
+status 204: 1
+status 301: 1
+status 302: 3
+status 403: 2
+
+profiler timing:
+17.361 secs (page load)
+17.323 secs (network: end last request)
+0.004 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 2, 2.488 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.505 kb
+png: 13, 20.150 kb
+unknown: 4, 14.493 kb
+xml: 4, 8.852 kb
+
+http timing detail: (status, method, doc, size, time)
+200, GET, /ClickTracking.aspx, 0, 305 ms
+204, GET, /pixel;r=1512297778;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-1763290629-1323887139385;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323887139385;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 134 ms
+200, GET, /, 4, 297 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 278 ms
+200, GET, /__utm.gif, 35, 268 ms
+200, GET, /ping, 43, 265 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 127 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 117 ms
+200, GET, /top-nav-background.png, 139, 107 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 96 ms
+200, GET, /newkey, 154, 383 ms
+200, GET, /top-nav-sale-background.png, 158, 101 ms
+302, GET, /ClickTracking.aspx, 209, 1696 ms
+302, GET, /headlines.xml, 232, 1963 ms
+302, GET, /headlines.xml, 256, 459 ms
+301, GET, /rss.xml, 256, 161 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 98 ms
+200, GET, /hp-dot-off.png, 401, 111 ms
+200, GET, /hp-dot-on.png, 421, 95 ms
+200, GET, /fpc.pl, 505, 11181 ms
+200, GET, /mstag.js, 510, 519 ms
+200, GET, /fb_min.css, 569, 372 ms
+200, GET, /search-go-button.png, 631, 98 ms
+200, GET, /112011-home-1.css, 1198, 379 ms
+200, GET, /ClickTracking.aspx, 1198, 1458 ms
+403, GET, /favicon.ico, 1244, 4 ms
+403, GET, /favicon.ico, 1244, 6 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 376 ms
+200, GET, /builder.js, 1869, 316 ms
+200, GET, /quant.js, 2161, 426 ms
+200, GET, /conversion.js, 2171, 469 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 390 ms
+200, GET, /chartbeat.js, 2581, 173 ms
+200, GET, /zumiez-logo.jpg, 3955, 355 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 453 ms
+200, GET, /mbox.js, 6149, 252 ms
+200, GET, /cycle.min.js, 6931, 300 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 932 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 328 ms
+200, GET, /rss.xml, 8108, 265 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 410 ms
+200, GET, /atgsvcs.js, 9485, 663 ms
+200, GET, /ga.js, 12985, 1306 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 796 ms
+200, GET, /, 14292, 391 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 487 ms
+200, GET, /global_1.2.6.css, 16793, 511 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 589 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 524 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 491 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 871 ms
+200, GET, /ywa.js, 23574, 1934 ms
+200, GET, /preloader.gif, 25293, 722 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 1572 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 1027 ms
+200, GET, /jquery-1.7.js, 33320, 877 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 2852 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 1692 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 1317 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 2567 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 1740 ms
+200, GET, /base-1.4.js, 51466, 1366 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 2909 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 2032 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 2976 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 1848 ms
+
+[1] Results for: http://www.zumiez.com/shoes.html
+---------------------------------------------------
+
+
+content size: 949.818 kb
+
+http requests: 63
+status 200: 57
+status 204: 1
+status 302: 3
+status 403: 2
+
+profiler timing:
+3.940 secs (page load)
+3.905 secs (network: end last request)
+0.034 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 2, 2.488 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.504 kb
+png: 13, 20.150 kb
+unknown: 3, 14.146 kb
+xml: 2, 0.488 kb
+
+http timing detail: (status, method, doc, size, time)
+200, GET, /ClickTracking.aspx, 0, 234 ms
+204, GET, /pixel;r=683763684;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-36135172-1323896998938;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323896998938;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 648 ms
+200, GET, /, 4, 725 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 148 ms
+200, GET, /__utm.gif, 35, 147 ms
+200, GET, /ping, 43, 380 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 149 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 118 ms
+200, GET, /top-nav-background.png, 139, 103 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 136 ms
+200, GET, /top-nav-sale-background.png, 158, 107 ms
+302, GET, /ClickTracking.aspx, 209, 565 ms
+302, GET, /headlines.xml, 232, 635 ms
+302, GET, /headlines.xml, 256, 104 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 156 ms
+200, GET, /hp-dot-off.png, 401, 116 ms
+200, GET, /hp-dot-on.png, 421, 114 ms
+200, GET, /fpc.pl, 504, 290 ms
+200, GET, /mstag.js, 510, 499 ms
+200, GET, /fb_min.css, 569, 691 ms
+200, GET, /search-go-button.png, 631, 111 ms
+200, GET, /112011-home-1.css, 1198, 686 ms
+200, GET, /ClickTracking.aspx, 1198, 523 ms
+403, GET, /favicon.ico, 1244, 34 ms
+403, GET, /favicon.ico, 1244, 3 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 217 ms
+200, GET, /builder.js, 1869, 702 ms
+200, GET, /quant.js, 2161, 742 ms
+200, GET, /conversion.js, 2171, 538 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 178 ms
+200, GET, /chartbeat.js, 2581, 265 ms
+200, GET, /zumiez-logo.jpg, 3955, 195 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 160 ms
+200, GET, /mbox.js, 6149, 420 ms
+200, GET, /cycle.min.js, 6931, 752 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 258 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 164 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 162 ms
+200, GET, /atgsvcs.js, 9485, 452 ms
+200, GET, /ga.js, 12985, 571 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 155 ms
+200, GET, /, 14099, 510 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 249 ms
+200, GET, /global_1.2.6.css, 16793, 962 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 113 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 162 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 213 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 188 ms
+200, GET, /ywa.js, 23574, 1072 ms
+200, GET, /preloader.gif, 25293, 349 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 590 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 404 ms
+200, GET, /jquery-1.7.js, 33320, 1141 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 580 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 365 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 419 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 788 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 792 ms
+200, GET, /base-1.4.js, 51466, 1225 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 786 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 653 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 844 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 472 ms
+
+[2] Results for: http://www.zumiez.com/girls.html
+---------------------------------------------------
+
+
+content size: 957.258 kb
+
+http requests: 65
+status 200: 59
+status 204: 1
+status 301: 1
+status 302: 3
+status 403: 1
+
+profiler timing:
+13.198 secs (page load)
+13.167 secs (network: end last request)
+0.001 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 1, 1.244 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.505 kb
+png: 13, 20.150 kb
+unknown: 4, 14.299 kb
+xml: 4, 9.018 kb
+
+http timing detail: (status, method, doc, size, time)
+204, GET, /pixel;r=1174489549;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-1833287650-1323897007094;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323897007094;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 148 ms
+200, GET, /ClickTracking.aspx, 0, 243 ms
+200, GET, /, 4, 208 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 110 ms
+200, GET, /__utm.gif, 35, 93 ms
+200, GET, /ping, 43, 336 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 104 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 119 ms
+200, GET, /top-nav-background.png, 139, 111 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 107 ms
+200, GET, /newkey, 154, 130 ms
+200, GET, /top-nav-sale-background.png, 158, 108 ms
+302, GET, /ClickTracking.aspx, 209, 304 ms
+302, GET, /headlines.xml, 232, 159 ms
+302, GET, /headlines.xml, 256, 153 ms
+301, GET, /rss.xml, 256, 302 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 107 ms
+200, GET, /hp-dot-off.png, 401, 116 ms
+200, GET, /hp-dot-on.png, 421, 115 ms
+200, GET, /fpc.pl, 505, 11180 ms
+200, GET, /mstag.js, 510, 199 ms
+200, GET, /fb_min.css, 569, 291 ms
+200, GET, /search-go-button.png, 631, 109 ms
+200, GET, /112011-home-1.css, 1198, 263 ms
+200, GET, /ClickTracking.aspx, 1198, 350 ms
+403, GET, /favicon.ico, 1244, 1 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 132 ms
+200, GET, /builder.js, 1869, 253 ms
+200, GET, /quant.js, 2161, 174 ms
+200, GET, /conversion.js, 2171, 182 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 131 ms
+200, GET, /chartbeat.js, 2581, 176 ms
+200, GET, /zumiez-logo.jpg, 3955, 157 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 134 ms
+200, GET, /mbox.js, 6149, 129 ms
+200, GET, /cycle.min.js, 6931, 251 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 190 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 134 ms
+200, GET, /rss.xml, 8274, 428 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 275 ms
+200, GET, /atgsvcs.js, 9485, 329 ms
+200, GET, /ga.js, 12985, 207 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 153 ms
+200, GET, /, 14098, 414 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 147 ms
+200, GET, /global_1.2.6.css, 16793, 425 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 120 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 109 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 150 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 192 ms
+200, GET, /ywa.js, 23574, 582 ms
+200, GET, /preloader.gif, 25293, 299 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 591 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 297 ms
+200, GET, /jquery-1.7.js, 33320, 518 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 449 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 407 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 346 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 524 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 644 ms
+200, GET, /base-1.4.js, 51466, 552 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 294 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 650 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 695 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 444 ms
+
+[3] Results for: http://www.zumiez.com/skate.html
+---------------------------------------------------
+
+
+content size: 949.677 kb
+
+http requests: 62
+status 200: 58
+status 204: 1
+status 302: 1
+status 403: 2
+
+profiler timing:
+2.729 secs (page load)
+2.702 secs (network: end last request)
+0.003 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 2, 2.488 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.503 kb
+png: 13, 20.150 kb
+unknown: 4, 14.494 kb
+
+http timing detail: (status, method, doc, size, time)
+204, GET, /pixel;r=634244164;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-932823643-1323897025564;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323897025564;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 145 ms
+200, GET, /ClickTracking.aspx, 0, 337 ms
+200, GET, /, 4, 336 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 102 ms
+200, GET, /__utm.gif, 35, 109 ms
+200, GET, /ping, 43, 345 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 127 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 137 ms
+200, GET, /top-nav-background.png, 139, 113 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 155 ms
+200, GET, /newkey, 154, 463 ms
+200, GET, /top-nav-sale-background.png, 158, 113 ms
+302, GET, /ClickTracking.aspx, 209, 311 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 127 ms
+200, GET, /hp-dot-off.png, 401, 113 ms
+200, GET, /hp-dot-on.png, 421, 126 ms
+200, GET, /fpc.pl, 503, 241 ms
+200, GET, /mstag.js, 510, 190 ms
+200, GET, /fb_min.css, 569, 277 ms
+200, GET, /search-go-button.png, 631, 100 ms
+200, GET, /112011-home-1.css, 1198, 285 ms
+200, GET, /ClickTracking.aspx, 1198, 326 ms
+403, GET, /favicon.ico, 1244, 3 ms
+403, GET, /favicon.ico, 1244, 3 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 189 ms
+200, GET, /builder.js, 1869, 230 ms
+200, GET, /quant.js, 2161, 146 ms
+200, GET, /conversion.js, 2171, 175 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 169 ms
+200, GET, /chartbeat.js, 2581, 227 ms
+200, GET, /zumiez-logo.jpg, 3955, 150 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 138 ms
+200, GET, /mbox.js, 6149, 114 ms
+200, GET, /cycle.min.js, 6931, 245 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 240 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 165 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 150 ms
+200, GET, /atgsvcs.js, 9485, 329 ms
+200, GET, /ga.js, 12985, 212 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 119 ms
+200, GET, /, 14293, 409 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 215 ms
+200, GET, /global_1.2.6.css, 16793, 433 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 110 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 113 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 215 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 319 ms
+200, GET, /ywa.js, 23574, 665 ms
+200, GET, /preloader.gif, 25293, 400 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 180 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 173 ms
+200, GET, /jquery-1.7.js, 33320, 520 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 396 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 398 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 636 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 346 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 322 ms
+200, GET, /base-1.4.js, 51466, 586 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 532 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 422 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 592 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 434 ms
+
+[4] Results for: http://www.zumiez.com/boys.html/
+---------------------------------------------------
+
+
+content size: 1502.336 kb
+
+http requests: 72
+status 200: 65
+status 204: 1
+status 301: 1
+status 302: 3
+status 403: 2
+
+profiler timing:
+13.053 secs (page load)
+13.022 secs (network: end last request)
+0.003 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 2, 2.488 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.505 kb
+png: 13, 20.150 kb
+unknown: 10, 558.133 kb
+xml: 4, 9.018 kb
+
+http timing detail: (status, method, doc, size, time)
+200, GET, /ClickTracking.aspx, 0, 239 ms
+204, GET, /pixel;r=1030623827;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-1699562809-1323897032987;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323897032987;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 162 ms
+200, GET, /, 4, 212 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 104 ms
+200, GET, /__utm.gif, 35, 125 ms
+200, GET, /ping, 43, 355 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 126 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 131 ms
+200, GET, /top-nav-background.png, 139, 116 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 111 ms
+200, GET, /newkey, 154, 524 ms
+200, GET, /top-nav-sale-background.png, 158, 101 ms
+302, GET, /ClickTracking.aspx, 209, 241 ms
+302, GET, /headlines.xml, 232, 191 ms
+302, GET, /headlines.xml, 256, 138 ms
+301, GET, /rss.xml, 256, 677 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 111 ms
+200, GET, /hp-dot-off.png, 401, 100 ms
+200, GET, /hp-dot-on.png, 421, 123 ms
+200, GET, /ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEY7YwEIO6MBDIFbQYBAAM, 474, 1048 ms
+200, GET, /fpc.pl, 505, 11181 ms
+200, GET, /mstag.js, 510, 182 ms
+200, GET, /fb_min.css, 569, 259 ms
+200, GET, /search-go-button.png, 631, 100 ms
+200, GET, /112011-home-1.css, 1198, 244 ms
+200, GET, /ClickTracking.aspx, 1198, 305 ms
+403, GET, /favicon.ico, 1244, 3 ms
+403, GET, /favicon.ico, 1244, 3 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 119 ms
+200, GET, /builder.js, 1869, 287 ms
+200, GET, /quant.js, 2161, 161 ms
+200, GET, /conversion.js, 2171, 191 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 123 ms
+200, GET, /chartbeat.js, 2581, 669 ms
+200, POST, /downloads, 2925, 602 ms
+200, GET, /zumiez-logo.jpg, 3955, 120 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 118 ms
+200, GET, /mbox.js, 6149, 122 ms
+200, GET, /cycle.min.js, 6931, 257 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 321 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 127 ms
+200, GET, /rss.xml, 8274, 344 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 133 ms
+200, GET, /atgsvcs.js, 9485, 660 ms
+200, GET, /ga.js, 12985, 252 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 124 ms
+200, GET, /, 14232, 349 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 126 ms
+200, GET, /global_1.2.6.css, 16793, 389 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 107 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 138 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 139 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 202 ms
+200, GET, /ywa.js, 23574, 587 ms
+200, GET, /preloader.gif, 25293, 226 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 327 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 318 ms
+200, GET, /jquery-1.7.js, 33320, 452 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 314 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 539 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 430 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 309 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 614 ms
+200, GET, /base-1.4.js, 51466, 629 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 558 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 568 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 446 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 324 ms
+200, GET, /ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYgZIEIMCUBDItAQkBAP____________________________________________________8A, 103830, 272 ms
+200, GET, /ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYwZQEIICXBDItQQoBAP____________________________________________________8A, 110782, 720 ms
+200, GET, /ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYgZcEIICcBDJVgQsBAP__________________________________________________________________________________________________________AA, 153388, 622 ms
+200, GET, /ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYgY0EIICSBDJVgQYBAP__________________________________________________________________________________________________________AA, 172301, 598 ms
+
+[5] Results for: http://www.zumiez.com/accessories.html/
+---------------------------------------------------
+
+
+content size: 958.559 kb
+
+http requests: 66
+status 200: 59
+status 204: 1
+status 301: 1
+status 302: 3
+status 403: 2
+
+profiler timing:
+13.072 secs (page load)
+13.041 secs (network: end last request)
+0.002 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 2, 2.488 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.503 kb
+png: 13, 20.150 kb
+unknown: 4, 14.358 kb
+xml: 4, 9.018 kb
+
+http timing detail: (status, method, doc, size, time)
+200, GET, /ClickTracking.aspx, 0, 258 ms
+204, GET, /pixel;r=684625602;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-1473470879-1323897050948;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323897050948;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 162 ms
+200, GET, /, 4, 1204 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 119 ms
+200, GET, /__utm.gif, 35, 83 ms
+200, GET, /ping, 43, 348 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 107 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 111 ms
+200, GET, /top-nav-background.png, 139, 110 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 140 ms
+200, GET, /newkey, 154, 870 ms
+200, GET, /top-nav-sale-background.png, 158, 106 ms
+302, GET, /ClickTracking.aspx, 209, 288 ms
+302, GET, /headlines.xml, 232, 3271 ms
+302, GET, /headlines.xml, 256, 101 ms
+301, GET, /rss.xml, 256, 259 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 107 ms
+200, GET, /hp-dot-off.png, 401, 106 ms
+200, GET, /hp-dot-on.png, 421, 117 ms
+200, GET, /fpc.pl, 503, 11193 ms
+200, GET, /mstag.js, 510, 184 ms
+200, GET, /fb_min.css, 569, 286 ms
+200, GET, /search-go-button.png, 631, 100 ms
+200, GET, /112011-home-1.css, 1198, 292 ms
+200, GET, /ClickTracking.aspx, 1198, 253 ms
+403, GET, /favicon.ico, 1244, 2 ms
+403, GET, /favicon.ico, 1244, 4 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 114 ms
+200, GET, /builder.js, 1869, 298 ms
+200, GET, /quant.js, 2161, 151 ms
+200, GET, /conversion.js, 2171, 187 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 107 ms
+200, GET, /chartbeat.js, 2581, 192 ms
+200, GET, /zumiez-logo.jpg, 3955, 117 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 151 ms
+200, GET, /mbox.js, 6149, 118 ms
+200, GET, /cycle.min.js, 6931, 293 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 333 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 103 ms
+200, GET, /rss.xml, 8274, 360 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 279 ms
+200, GET, /atgsvcs.js, 9485, 341 ms
+200, GET, /ga.js, 12985, 265 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 155 ms
+200, GET, /, 14157, 284 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 117 ms
+200, GET, /global_1.2.6.css, 16793, 470 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 130 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 160 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 140 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 169 ms
+200, GET, /ywa.js, 23574, 596 ms
+200, GET, /preloader.gif, 25293, 411 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 181 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 385 ms
+200, GET, /jquery-1.7.js, 33320, 511 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 439 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 567 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 596 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 326 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 332 ms
+200, GET, /base-1.4.js, 51466, 683 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 434 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 420 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 431 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 407 ms
+
+[6] Results for: http://www.zumiez.com/snow.html/
+---------------------------------------------------
+
+
+content size: 950.165 kb
+
+http requests: 64
+status 200: 58
+status 204: 1
+status 302: 3
+status 403: 2
+
+profiler timing:
+3.765 secs (page load)
+3.744 secs (network: end last request)
+0.003 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 2, 2.488 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.503 kb
+png: 13, 20.150 kb
+unknown: 4, 14.494 kb
+xml: 2, 0.488 kb
+
+http timing detail: (status, method, doc, size, time)
+204, GET, /pixel;r=32885135;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-1519438331-1323897069283;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323897069282;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 160 ms
+200, GET, /ClickTracking.aspx, 0, 277 ms
+200, GET, /, 4, 695 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 104 ms
+200, GET, /__utm.gif, 35, 82 ms
+200, GET, /ping, 43, 769 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 107 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 105 ms
+200, GET, /top-nav-background.png, 139, 103 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 123 ms
+200, GET, /newkey, 154, 376 ms
+200, GET, /top-nav-sale-background.png, 158, 107 ms
+302, GET, /ClickTracking.aspx, 209, 689 ms
+302, GET, /headlines.xml, 232, 274 ms
+302, GET, /headlines.xml, 256, 85 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 129 ms
+200, GET, /hp-dot-off.png, 401, 135 ms
+200, GET, /hp-dot-on.png, 421, 131 ms
+200, GET, /fpc.pl, 503, 189 ms
+200, GET, /mstag.js, 510, 612 ms
+200, GET, /fb_min.css, 569, 285 ms
+200, GET, /search-go-button.png, 631, 102 ms
+200, GET, /112011-home-1.css, 1198, 258 ms
+200, GET, /ClickTracking.aspx, 1198, 257 ms
+403, GET, /favicon.ico, 1244, 3 ms
+403, GET, /favicon.ico, 1244, 4 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 115 ms
+200, GET, /builder.js, 1869, 246 ms
+200, GET, /quant.js, 2161, 147 ms
+200, GET, /conversion.js, 2171, 208 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 137 ms
+200, GET, /chartbeat.js, 2581, 594 ms
+200, GET, /zumiez-logo.jpg, 3955, 116 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 114 ms
+200, GET, /mbox.js, 6149, 109 ms
+200, GET, /cycle.min.js, 6931, 256 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 112 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 109 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 235 ms
+200, GET, /atgsvcs.js, 9485, 758 ms
+200, GET, /ga.js, 12985, 201 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 108 ms
+200, GET, /, 14293, 301 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 145 ms
+200, GET, /global_1.2.6.css, 16793, 342 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 148 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 133 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 122 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 177 ms
+200, GET, /ywa.js, 23574, 493 ms
+200, GET, /preloader.gif, 25293, 353 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 184 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 180 ms
+200, GET, /jquery-1.7.js, 33320, 532 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 355 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 387 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 403 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 326 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 558 ms
+200, GET, /base-1.4.js, 51466, 598 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 269 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 682 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 675 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 452 ms
+
+[7] Results for: http://www.zumiez.com/pro-riders.html/
+---------------------------------------------------
+
+
+content size: 949.676 kb
+
+http requests: 62
+status 200: 58
+status 204: 1
+status 302: 1
+status 403: 2
+
+profiler timing:
+2.591 secs (page load)
+2.569 secs (network: end last request)
+0.010 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 2, 2.488 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.504 kb
+png: 13, 20.150 kb
+unknown: 4, 14.492 kb
+
+http timing detail: (status, method, doc, size, time)
+204, GET, /pixel;r=317476563;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-1016963136-1323897077941;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323897077940;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 156 ms
+200, GET, /ClickTracking.aspx, 0, 290 ms
+200, GET, /, 4, 236 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 118 ms
+200, GET, /__utm.gif, 35, 87 ms
+200, GET, /ping, 43, 331 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 103 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 118 ms
+200, GET, /top-nav-background.png, 139, 100 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 118 ms
+200, GET, /newkey, 154, 418 ms
+200, GET, /top-nav-sale-background.png, 158, 100 ms
+302, GET, /ClickTracking.aspx, 209, 286 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 109 ms
+200, GET, /hp-dot-off.png, 401, 107 ms
+200, GET, /hp-dot-on.png, 421, 106 ms
+200, GET, /fpc.pl, 504, 167 ms
+200, GET, /mstag.js, 510, 170 ms
+200, GET, /fb_min.css, 569, 247 ms
+200, GET, /search-go-button.png, 631, 104 ms
+200, GET, /112011-home-1.css, 1198, 251 ms
+200, GET, /ClickTracking.aspx, 1198, 255 ms
+403, GET, /favicon.ico, 1244, 10 ms
+403, GET, /favicon.ico, 1244, 2 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 131 ms
+200, GET, /builder.js, 1869, 226 ms
+200, GET, /quant.js, 2161, 145 ms
+200, GET, /conversion.js, 2171, 179 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 141 ms
+200, GET, /chartbeat.js, 2581, 172 ms
+200, GET, /zumiez-logo.jpg, 3955, 111 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 110 ms
+200, GET, /mbox.js, 6149, 111 ms
+200, GET, /cycle.min.js, 6931, 221 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 129 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 113 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 226 ms
+200, GET, /atgsvcs.js, 9485, 323 ms
+200, GET, /ga.js, 12985, 260 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 153 ms
+200, GET, /, 14291, 291 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 154 ms
+200, GET, /global_1.2.6.css, 16793, 357 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 174 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 133 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 141 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 132 ms
+200, GET, /ywa.js, 23574, 1106 ms
+200, GET, /preloader.gif, 25293, 231 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 218 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 149 ms
+200, GET, /jquery-1.7.js, 33320, 430 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 459 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 581 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 441 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 322 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 635 ms
+200, GET, /base-1.4.js, 51466, 578 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 551 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 455 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 460 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 426 ms
+
+[8] Results for: http://www.zumiez.com/brands.html/
+---------------------------------------------------
+
+
+content size: 958.559 kb
+
+http requests: 66
+status 200: 59
+status 204: 1
+status 301: 1
+status 302: 3
+status 403: 2
+
+profiler timing:
+13.140 secs (page load)
+13.108 secs (network: end last request)
+0.003 secs (network: end first request)
+
+file extensions: (count, size)
+aspx: 3, 1.407 kb
+com%2F;ogl=: 1, 0.000 kb
+css: 4, 18.584 kb
+gif: 2, 25.328 kb
+ico: 2, 2.488 kb
+jpg: 20, 713.521 kb
+js: 12, 153.202 kb
+pl: 1, 0.503 kb
+png: 13, 20.150 kb
+unknown: 4, 14.358 kb
+xml: 4, 9.018 kb
+
+http timing detail: (status, method, doc, size, time)
+200, GET, /ClickTracking.aspx, 0, 234 ms
+204, GET, /pixel;r=1988254645;a=p-86Kl_y_mnP20-;fpan=1;fpa=P0-1564790032-1323897085490;ns=0;ce=1;je=1;sr=1440x900x24;enc=n;dst=1;et=1323897085489;tzo=480;ref=http%3A%2F%2Flocalhost%3A4444%2Fselenium-server%2Fcore%2FBlank.html;url=http%3A%2F%2Fwww.zumiez.com%2F;ogl=, 0, 128 ms
+200, GET, /, 4, 222 ms
+200, GET, /mobile-no-fixed-fix.css, 24, 114 ms
+200, GET, /__utm.gif, 35, 85 ms
+200, GET, /ping, 43, 327 ms
+200, GET, /112011-holiday-dock-gradient-main.png, 130, 99 ms
+200, GET, /112011-holiday-dock-gradient-button-1.png, 135, 106 ms
+200, GET, /top-nav-background.png, 139, 131 ms
+200, GET, /112011-holiday-dock-gradient-bg.png, 147, 129 ms
+200, GET, /newkey, 154, 641 ms
+200, GET, /top-nav-sale-background.png, 158, 104 ms
+302, GET, /ClickTracking.aspx, 209, 260 ms
+302, GET, /headlines.xml, 232, 216 ms
+302, GET, /headlines.xml, 256, 140 ms
+301, GET, /rss.xml, 256, 172 ms
+200, GET, /112011-holiday-dock-expand.png, 323, 110 ms
+200, GET, /hp-dot-off.png, 401, 139 ms
+200, GET, /hp-dot-on.png, 421, 119 ms
+200, GET, /fpc.pl, 503, 11170 ms
+200, GET, /mstag.js, 510, 187 ms
+200, GET, /fb_min.css, 569, 308 ms
+200, GET, /search-go-button.png, 631, 107 ms
+200, GET, /112011-home-1.css, 1198, 320 ms
+200, GET, /ClickTracking.aspx, 1198, 262 ms
+403, GET, /favicon.ico, 1244, 3 ms
+403, GET, /favicon.ico, 1244, 3 ms
+200, GET, /112011-holiday-dock-gift-icon.png, 1824, 149 ms
+200, GET, /builder.js, 1869, 320 ms
+200, GET, /quant.js, 2161, 155 ms
+200, GET, /conversion.js, 2171, 180 ms
+200, GET, /112011-holiday-dock-giftcard-icon-1.png, 2339, 114 ms
+200, GET, /chartbeat.js, 2581, 184 ms
+200, GET, /zumiez-logo.jpg, 3955, 134 ms
+200, GET, /092011-free-shipping-extended-04.png, 5927, 103 ms
+200, GET, /mbox.js, 6149, 113 ms
+200, GET, /cycle.min.js, 6931, 320 ms
+200, GET, /snap-back-fitted-hats-475x25.jpg, 7298, 120 ms
+200, GET, /112011-holiday-dock-outfits-icon.png, 7575, 118 ms
+200, GET, /rss.xml, 8274, 776 ms
+200, GET, /122011-head-holiday-gift-guide-167x58.jpg, 9459, 229 ms
+200, GET, /atgsvcs.js, 9485, 319 ms
+200, GET, /ga.js, 12985, 206 ms
+200, GET, /112011-watches-475x25.jpg, 13026, 108 ms
+200, GET, /, 14157, 514 ms
+200, GET, /122011-hp-bogo50-outerwear-230x143.jpg, 16238, 150 ms
+200, GET, /global_1.2.6.css, 16793, 463 ms
+200, GET, /122011-hp-sale-230x143.jpg, 17269, 120 ms
+200, GET, /122011-home-guys-girls-tees-15-230x143-03.jpg, 18426, 157 ms
+200, GET, /122011-hp-bogo50-zine-hoodies-230x143-02.jpg, 19297, 137 ms
+200, GET, /102011-hp-beanies-bogo-50-311x193.jpg, 22568, 453 ms
+200, GET, /ywa.js, 23574, 506 ms
+200, GET, /preloader.gif, 25293, 258 ms
+200, GET, /112011-hp-gift-guide-311x193-02.jpg, 28166, 173 ms
+200, GET, /112011-home-brand-logos-02.jpg, 29439, 183 ms
+200, GET, /jquery-1.7.js, 33320, 534 ms
+200, GET, /122011-home-girls-baby-its-cold-outside-638x393.jpg, 45882, 497 ms
+200, GET, /122011-supra-gifts-638x393.jpg, 48570, 352 ms
+200, GET, /112011-gift-cards-638x393-2.jpg, 48818, 300 ms
+200, GET, /122011-hp-diamond-supply-638x393.jpg, 50057, 431 ms
+200, GET, /122011-home-hoodies-638x393.jpg, 50456, 578 ms
+200, GET, /base-1.4.js, 51466, 570 ms
+200, GET, /122011-hp-guys-outerwear-guide-638x393.jpg, 53735, 258 ms
+200, GET, /122011-hp-snow-packages-638x393.jpg, 74546, 557 ms
+200, GET, /122011-skateboarder-638x393-3.jpg, 76387, 720 ms
+200, GET, /122011-snowboarder-638x393-1.jpg, 79929, 362 ms

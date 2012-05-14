@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/personal/!svn/ver/16/wapf/scripts
+END
+keyword_density_ts.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/personal/!svn/ver/14/wapf/scripts/keyword_density_ts.py
+END
+multi_thread2_ts.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/personal/!svn/ver/14/wapf/scripts/multi_thread2_ts.py
+END
+selenium_start_stop_ts.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/personal/!svn/ver/16/wapf/scripts/selenium_start_stop_ts.py
+END
+stage_ts.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/personal/!svn/ver/14/wapf/scripts/stage_ts.py
+END
+checkout_ts.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/personal/!svn/ver/14/wapf/scripts/checkout_ts.py
+END
+pagerank_ts.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/personal/!svn/ver/14/wapf/scripts/pagerank_ts.py
+END
+noproduct_ts.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/personal/!svn/ver/16/wapf/scripts/noproduct_ts.py
+END
+statuscode_ts.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/personal/!svn/ver/16/wapf/scripts/statuscode_ts.py
+END
+crawler_ts.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/personal/!svn/ver/16/wapf/scripts/crawler_ts.py
+END
+giftcard_page_ts.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/personal/!svn/ver/17/wapf/scripts/giftcard_page_ts.py
+END
+crawler2_ts.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/personal/!svn/ver/16/wapf/scripts/crawler2_ts.py
+END
+http_profiler_ts.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/personal/!svn/ver/14/wapf/scripts/http_profiler_ts.py
+END
+multi_thread_ts.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/personal/!svn/ver/14/wapf/scripts/multi_thread_ts.py
+END

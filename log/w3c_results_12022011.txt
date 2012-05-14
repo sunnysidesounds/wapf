@@ -1,0 +1,336 @@
+
+[1] Results for: http://www.zumiez.com/guys/t-shirts.html
+---------------------------------------------------
+error --> line: 10    : there is no attribute "property"
+error --> line: 458   : there is no attribute "language"
+error --> line: 459   : an attribute specification must start with a name or name token
+error --> line: 459   : element "s" undefined
+error --> line: 459   : general entity "jscript" not defined and no default entity
+error --> line: 459   : reference to entity "jscript" for which no system identifier could be generated
+error --> line: 459   : delimiter "'" invalid: only S separators and TAGC allowed here
+error --> line: 470   : general entity "guid" not defined and no default entity
+error --> line: 470   : reference to entity "guid" for which no system identifier could be generated
+error --> line: 470   : general entity "script" not defined and no default entity
+error --> line: 470   : reference to entity "script" for which no system identifier could be generated
+error --> line: 475   : reference to entity "jscript" for which no system identifier could be generated
+error --> line: 475   : required attribute "alt" not specified
+error --> line: 475   : document type does not allow element "img" here; missing one of "p", "h1", "h2", "h3", "h4", "h5", "h6", "div", "address", "fieldset", "ins", "del" start-tag
+error --> line: 475   : end tag for "img" omitted, but OMITTAG NO was specified
+error --> line: 500   : document type does not allow element "style" here
+error --> line: 532   : there is no attribute "border"
+error --> line: 787   : general entity "js" not defined and no default entity
+error --> line: 787   : reference to entity "js" for which no system identifier could be generated
+error --> line: 819   : document type does not allow element "style" here
+error --> line: 932   : document type does not allow element "a" here
+error --> line: 932   : document type does not allow element "a" here
+error --> line: 1017  : character """ is not allowed in the value of attribute "id"
+error --> line: 1017  : value of attribute "id" must be a single token
+error --> line: 1017  : character "+" is not allowed in the value of attribute "id"
+error --> line: 1017  : character "[" is not allowed in the value of attribute "id"
+error --> line: 1017  : an attribute value literal can occur in an attribute specification list only after a VI delimiter
+error --> line: 1017  : document type does not allow element "div" here
+error --> line: 1017  : an attribute value literal can occur in an attribute specification list only after a VI delimiter
+error --> line: 1090  : general entity "d" not defined and no default entity
+error --> line: 1090  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1094  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1098  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1102  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1106  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1111  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1115  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1119  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1123  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1127  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1131  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1135  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1139  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1143  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1147  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1151  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1155  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1159  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1163  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1167  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1171  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1175  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1179  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1183  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1187  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1191  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1195  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1199  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1203  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1207  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1211  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1215  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1219  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1223  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1227  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1231  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1235  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1239  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1243  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1247  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1251  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1255  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1259  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1263  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1267  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1271  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1275  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1279  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1283  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1287  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1291  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1295  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1299  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1303  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1307  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1311  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1315  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1319  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1323  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1327  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1331  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1335  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1339  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1343  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1347  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1351  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1355  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1359  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1363  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1367  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1371  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1375  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1379  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1383  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1387  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1391  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1395  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1399  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1403  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1407  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1411  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1415  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1419  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1423  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1427  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1431  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1435  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1439  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1443  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1447  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1451  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1455  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1459  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1463  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1467  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1484  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1488  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1492  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1496  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1500  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1505  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1522  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1526  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1530  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1534  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1538  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1543  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1547  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1551  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1555  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1559  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1563  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1567  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1571  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1588  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1592  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1596  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1600  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1612  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1616  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1620  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1624  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1624  : end tag for "span" omitted, but OMITTAG NO was specified
+error --> line: 1624  : end tag for "span" omitted, but OMITTAG NO was specified
+error --> line: 1628  : reference to entity "d" for which no system identifier could be generated
+error --> line: 1636  : document type does not allow element "style" here
+error --> line: 1656  : end tag for "br" omitted, but OMITTAG NO was specified
+error --> line: 1657  : document type does not allow element "link" here
+error --> line: 1658  : document type does not allow element "style" here
+error --> line: 1702  : end tag for element "map" which is not open
+error --> line: 1781  : end tag for "br" omitted, but OMITTAG NO was specified
+error --> line: 1784  : value of attribute "id" invalid: "2" cannot start a name
+error --> line: 1811  : element "s" undefined
+error --> line: 1832  : value of attribute "id" invalid: "2" cannot start a name
+error --> line: 1833  : ID "prod_1_span" already defined
+error --> line: 1834  : ID "prod_1" already defined
+error --> line: 1844  : ID "vendor" already defined
+error --> line: 1847  : ID "prod_flag_detail" already defined
+error --> line: 1877  : value of attribute "id" invalid: "2" cannot start a name
+error --> line: 1878  : ID "prod_1_span" already defined
+error --> line: 1879  : ID "prod_1" already defined
+error --> line: 1889  : ID "vendor" already defined
+error --> line: 1892  : ID "prod_flag_detail" already defined
+error --> line: 1904  : element "s" undefined
+error --> line: 1924  : value of attribute "id" invalid: "2" cannot start a name
+error --> line: 1925  : ID "prod_1_span" already defined
+error --> line: 1926  : ID "prod_1" already defined
+error --> line: 1936  : ID "vendor" already defined
+error --> line: 1939  : ID "prod_flag_detail" already defined
+error --> line: 1951  : element "s" undefined
+error --> line: 1968  : end tag for "br" omitted, but OMITTAG NO was specified
+error --> line: 1971  : value of attribute "id" invalid: "1" cannot start a name
+error --> line: 1972  : ID "prod_1_span" already defined
+error --> line: 1973  : ID "prod_1" already defined
+error --> line: 1983  : ID "vendor" already defined
+error --> line: 1986  : ID "prod_flag_detail" already defined
+error --> line: 1998  : element "s" undefined
+error --> line: 2019  : value of attribute "id" invalid: "1" cannot start a name
+error --> line: 2020  : ID "prod_1_span" already defined
+error --> line: 2021  : ID "prod_1" already defined
+error --> line: 2031  : ID "vendor" already defined
+error --> line: 2044  : element "s" undefined
+error --> line: 2065  : value of attribute "id" invalid: "1" cannot start a name
+error --> line: 2066  : ID "prod_1_span" already defined
+error --> line: 2067  : ID "prod_1" already defined
+error --> line: 2077  : ID "vendor" already defined
+error --> line: 2090  : element "s" undefined
+error --> line: 2111  : value of attribute "id" invalid: "1" cannot start a name
+error --> line: 2112  : ID "prod_1_span" already defined
+error --> line: 2113  : ID "prod_1" already defined
+error --> line: 2123  : ID "vendor" already defined
+error --> line: 2136  : element "s" undefined
+error --> line: 2154  : end tag for "br" omitted, but OMITTAG NO was specified
+error --> line: 2157  : value of attribute "id" invalid: "1" cannot start a name
+error --> line: 2158  : ID "prod_1_span" already defined
+error --> line: 2159  : ID "prod_1" already defined
+error --> line: 2169  : ID "vendor" already defined
+error --> line: 2172  : ID "prod_flag_detail" already defined
+error --> line: 2201  : value of attribute "id" invalid: "2" cannot start a name
+error --> line: 2202  : ID "prod_1_span" already defined
+error --> line: 2203  : ID "prod_1" already defined
+error --> line: 2213  : ID "vendor" already defined
+error --> line: 2216  : ID "prod_flag_detail" already defined
+error --> line: 2228  : element "s" undefined
+error --> line: 2249  : value of attribute "id" invalid: "2" cannot start a name
+error --> line: 2250  : ID "prod_1_span" already defined
+error --> line: 2251  : ID "prod_1" already defined
+error --> line: 2261  : ID "vendor" already defined
+error --> line: 2264  : ID "prod_flag_detail" already defined
+error --> line: 2276  : element "s" undefined
+error --> line: 2297  : value of attribute "id" invalid: "1" cannot start a name
+error --> line: 2298  : ID "prod_1_span" already defined
+error --> line: 2299  : ID "prod_1" already defined
+error --> line: 2309  : ID "vendor" already defined
+error --> line: 2312  : ID "prod_flag_detail" already defined
+error --> line: 2324  : element "s" undefined
+error --> line: 2342  : end tag for "br" omitted, but OMITTAG NO was specified
+error --> line: 2345  : value of attribute "id" invalid: "1" cannot start a name
+error --> line: 2346  : ID "prod_1_span" already defined
+error --> line: 2347  : ID "prod_1" already defined
+error --> line: 2357  : ID "vendor" already defined
+error --> line: 2360  : ID "prod_flag_detail" already defined
+error --> line: 2372  : element "s" undefined
+error --> line: 2393  : value of attribute "id" invalid: "1" cannot start a name
+error --> line: 2394  : ID "prod_1_span" already defined
+error --> line: 2395  : ID "prod_1" already defined
+error --> line: 2405  : ID "vendor" already defined
+error --> line: 2418  : element "s" undefined
+error --> line: 2439  : value of attribute "id" invalid: "1" cannot start a name
+error --> line: 2440  : ID "prod_1_span" already defined
+error --> line: 2441  : ID "prod_1" already defined
+error --> line: 2451  : ID "vendor" already defined
+error --> line: 2454  : ID "prod_flag_detail" already defined
+error --> line: 2466  : element "s" undefined
+error --> line: 2487  : value of attribute "id" invalid: "3" cannot start a name
+error --> line: 2488  : ID "prod_1_span" already defined
+error --> line: 2489  : ID "prod_1" already defined
+error --> line: 2499  : ID "vendor" already defined
+error --> line: 2512  : element "s" undefined
+error --> line: 2530  : end tag for "br" omitted, but OMITTAG NO was specified
+error --> line: 2533  : value of attribute "id" invalid: "1" cannot start a name
+error --> line: 2534  : ID "prod_1_span" already defined
+error --> line: 2535  : ID "prod_1" already defined
+error --> line: 2545  : ID "vendor" already defined
+error --> line: 2548  : ID "prod_flag_detail" already defined
+error --> line: 2560  : element "s" undefined
+error --> line: 2581  : value of attribute "id" invalid: "1" cannot start a name
+error --> line: 2582  : ID "prod_1_span" already defined
+error --> line: 2583  : ID "prod_1" already defined
+error --> line: 2593  : ID "vendor" already defined
+error --> line: 2596  : ID "prod_flag_detail" already defined
+error --> line: 2608  : element "s" undefined
+error --> line: 2629  : value of attribute "id" invalid: "1" cannot start a name
+error --> line: 2630  : ID "prod_1_span" already defined
+error --> line: 2631  : ID "prod_1" already defined
+error --> line: 2641  : ID "vendor" already defined
+error --> line: 2644  : ID "prod_flag_detail" already defined
+error --> line: 2656  : element "s" undefined
+error --> line: 2676  : value of attribute "id" invalid: "1" cannot start a name
+error --> line: 2677  : ID "prod_1_span" already defined
+error --> line: 2678  : ID "prod_1" already defined
+error --> line: 2688  : ID "vendor" already defined
+error --> line: 2691  : ID "prod_flag_detail" already defined
+error --> line: 2703  : element "s" undefined
+error --> line: 2721  : end tag for "br" omitted, but OMITTAG NO was specified
+error --> line: 2724  : value of attribute "id" invalid: "2" cannot start a name
+error --> line: 2725  : ID "prod_1_span" already defined
+error --> line: 2726  : ID "prod_1" already defined
+error --> line: 2736  : ID "vendor" already defined
+error --> line: 2739  : ID "prod_flag_detail" already defined
+error --> line: 2751  : element "s" undefined
+error --> line: 2772  : value of attribute "id" invalid: "2" cannot start a name
+error --> line: 2773  : ID "prod_1_span" already defined
+error --> line: 2774  : ID "prod_1" already defined
+error --> line: 2784  : ID "vendor" already defined
+error --> line: 2787  : ID "prod_flag_detail" already defined
+error --> line: 2799  : element "s" undefined
+error --> line: 2820  : value of attribute "id" invalid: "2" cannot start a name
+error --> line: 2821  : ID "prod_1_span" already defined
+error --> line: 2822  : ID "prod_1" already defined
+error --> line: 2832  : ID "vendor" already defined
+error --> line: 2835  : ID "prod_flag_detail" already defined
+error --> line: 2847  : element "s" undefined
+error --> line: 2868  : value of attribute "id" invalid: "1" cannot start a name
+error --> line: 2869  : ID "prod_1_span" already defined
+error --> line: 2870  : ID "prod_1" already defined
+error --> line: 2880  : ID "vendor" already defined
+error --> line: 2893  : element "s" undefined
+error --> line: 2914  : ID "toolbar" already defined
+error --> line: 2916  : ID "cat_sort_bar" already defined
+error --> line: 2970  : required attribute "type" not specified
+error --> line: 2983  : invalid comment declaration: found name character outside comment but inside comment declaration
+error --> line: 3011  : invalid comment declaration: found name character outside comment but inside comment declaration
+error --> line: 3055  : document type does not allow element "img" here; missing one of "p", "h1", "h2", "h3", "h4", "h5", "h6", "div", "address", "fieldset", "ins", "del" start-tag
+error --> line: 3068  : there is no attribute "target"
+error --> line: 3084  : ID "footerlinks2" already defined
+error --> line: 3085  : duplicate specification of attribute "onclick"
+error --> line: 3085  : an attribute value literal can occur in an attribute specification list only after a VI delimiter
+error --> line: 3119  : reference to entity "d" for which no system identifier could be generated
+error --> line: 3140  : document type does not allow element "link" here
+error --> line: 3140  : end tag for "link" omitted, but OMITTAG NO was specified
+error --> line: 3141  : document type does not allow element "link" here
+error --> line: 3141  : end tag for "link" omitted, but OMITTAG NO was specified
+error --> line: 3238  : there is no attribute "target"
+error --> line: 3291  : general entity "domain" not defined and no default entity
+error --> line: 3291  : reference to entity "domain" for which no system identifier could be generated
+error --> line: 3323  : there is no attribute "src"
+error --> line: 3323  : general entity "domainId" not defined and no default entity
+error --> line: 3323  : reference to entity "domainId" for which no system identifier could be generated
+error --> line: 3323  : general entity "type" not defined and no default entity
+error --> line: 3323  : reference to entity "type" for which no system identifier could be generated
+error --> line: 3323  : general entity "revenue" not defined and no default entity
+error --> line: 3323  : reference to entity "revenue" for which no system identifier could be generated
+error --> line: 3323  : general entity "actionid" not defined and no default entity
+error --> line: 3323  : reference to entity "actionid" for which no system identifier could be generated
+error --> line: 3323  : there is no attribute "frameborder"
+error --> line: 3323  : there is no attribute "scrolling"
+error --> line: 3323  : there is no attribute "width"
+error --> line: 3323  : there is no attribute "height"
+error --> line: 3323  : there is no attribute "style"
+error --> line: 3323  : element "iframe" undefined
+error --> line: 3326  : end tag for element "div" which is not open
+error --> line: 3327  : end tag for element "div" which is not open

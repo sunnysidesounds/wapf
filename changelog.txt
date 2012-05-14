@@ -1,0 +1,28 @@
+################################################################################
+## wapf --> Web Analyzing & Profiling Framework
+## AUTHOR: Jason R Alexander
+## MAIL: sunnysidesounds@gmail.com
+################################################################################
+
+
+Changelog for wapf:
+
+
+12/15/11 Jason R Alexander <sunnysidesounds@gmail.com>
+	-Version 1.1.0
+	-Implementation of custom configurable file system for core command scripts
+
+
+11/3/11 Jason R Alexander <sunnysidesounds@gmail.com>
+	-Version 1.0.1
+	-Add some http send, receive and size methods
+	-Built a shell script that opens the selenium standalone server in a new terminal window 
+
+
+7/15/11 Jason R Alexander <sunnysidesounds@gmail.com>
+	-Version 1.0.0
+	-Initial Build
+	
+
+	
+
