@@ -30,7 +30,7 @@ This framework has been tested on Ubuntu 11.10 Server and Mac OS X 10.6.8 and sh
   (Install from Git Source and installed the required linux packages): 
 
   
-If using Ubuntu, don't forget to update: 
+If using Ubuntu, don't forget to update:
     [sudo] aptitude update && [sudo] aptitude dist-upgrade
 	
 Unix/Linux Package:
