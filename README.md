@@ -1,11 +1,10 @@
 
-#WHAT IS WAPF?
+## WHAT IS WAPF?
 
 Wapf is a web analyzing and profiling framework built with python and selenium. It allows you to test and extract many different kinds of data that can be used for a multitude of purposes. It can basically mimc a user (i.e. functional testing) while extracting other data such as speed metrics, keyword density, profiling information, w3c validation data and more. (See the feature section for a complete list) The framework was designed to make it easy to run multiple functional testing and data extracting commands all in a single command. (See the usage section on how to execute commands)
 	
 
-FEATURES:
-------------------------------
+## FEATURES:
 -Multiprocessing recursive crawler
 -Validate using w3c validation
 -Profile web pages using selenium standalone server
@@ -20,11 +19,10 @@ FEATURES:
 -HTTP analyzing
 
 	
-INSTALLATION/SETUP:
-------------------------------
+## INSTALLATION/SETUP:
 This framework has been tested on Ubuntu 11.10 and Mac OS X 10.6.8 and should work on any unix/linux distro. Windows has not been tested! 
 	
-To setup the framework you have two choices:
+#### To setup the framework you have two choices:
 1) INSTALL OWN YOUR OWN SYSTEM: (Install from SVN/Git Source and installed the required linux packages): 
 	
  Source:
@@ -68,8 +66,7 @@ To setup the framework you have two choices:
  Password 2%Milk
 	
 
-USAGE:
-------------------------------
+## USAGE:
 The basic:
 
 	-Everything runs through the runWAPF.py script. This allows for you to utilize all of wapf's features. Here is the basic syntax for running a basic command:
