@@ -23,7 +23,7 @@ Wapf is a web analyzing and profiling framework built with python and selenium. 
 
 
 ## INSTALLATION/SETUP:
-This framework has been tested on Ubuntu 11.10 and Mac OS X 10.6.8 and should work on any unix/linux distro. Windows has not been tested! 
+This framework has been tested on Ubuntu 11.10 Server and Mac OS X 10.6.8 and should work on any unix/linux distro. Windows has not been tested! 
 	
 ### To setup the framework you have two choices:
 #### 1) INSTALL OWN YOUR OWN SYSTEM: 
@@ -31,7 +31,7 @@ This framework has been tested on Ubuntu 11.10 and Mac OS X 10.6.8 and should wo
 
   
 If using Ubuntu, don't forget to update: 
-	[sudo] aptitude update && [sudo] aptitude dist-upgrade
+    [sudo] aptitude update && [sudo] aptitude dist-upgrade
 	
 Unix/Linux Package:
 *	Install python selenium webdriver 
