@@ -26,35 +26,35 @@ This framework has been tested on Ubuntu 11.10 and Mac OS X 10.6.8 and should wo
 #### 1) INSTALL OWN YOUR OWN SYSTEM: 
   (Install from SVN/Git Source and installed the required linux packages): 
 	
- Source:
- Git: https://github.com/sunnysidesounds/wapf
- 
- 
- If using Ubuntu, don't forget to update: [sudo] aptitude update && [sudo] aptitude dist-upgrade
-	
- Unix/Linux Package:
-	-Install python selenium webdriver 
-		-> [sudo] easy_install selenium or [sudo] pip install selenium
-	-Install Firefox and other packages to run headless:
-		-> [sudo] sudo apt-get install firefox
-		-> [sudo] apt-get install xvfb
-		-> [sudo] apt-get install xfonts-cyrillic (This is to fix this error when starting firefox (Missing fonts): Xlib:  extension "RANDR" missing on display ":99".`)
-	-Install Java for headless 
-		-> [sudo] apt-get install openjdk-6-jre-headless
-	-Install curl for w3c validator 
-		-> [sudo] apt-get install curl
-	-Install termcolor for terminal color
-		-> [sudo] pip install termcolor
-	
- Running in Headless:
-	If you want to run selenium in the background and in headless mode on start-up. Added these commands to /etc/rc.local
-	
-	Xvfb :4444 -ac -screen 0 1024x768x8 > /tmp/xvfb.log 2>&1 &
-	export DISPLAY=localhost:4444.0 && java -jar /home/dev/wapf/selenium_standalone/selenium-server-standalone-2.13.0.jar  > /tmp/selenium_server.log 2>&1 &
-	
-	(Note: Adjust your path if need be. /wapf/selenium_standalone might not be in /home/dev/)
-	
-	I also added this command " export DISPLAY=:99 " to my .profile (or .bash_profile) so the firefox will work headless. If you don't add this to .profile file on start-up you'll have to manually execute that command.
+	 Source:
+	 Git: https://github.com/sunnysidesounds/wapf
+	 
+	 
+	 If using Ubuntu, don't forget to update: [sudo] aptitude update && [sudo] aptitude dist-upgrade
+		
+	 Unix/Linux Package:
+		-Install python selenium webdriver
+			> [sudo] easy_install selenium or [sudo] pip install selenium
+		-Install Firefox and other packages to run headless:
+			-> [sudo] sudo apt-get install firefox
+			-> [sudo] apt-get install xvfb
+			-> [sudo] apt-get install xfonts-cyrillic (This is to fix this error when starting firefox (Missing fonts): Xlib:  extension "RANDR" missing on display ":99".`)
+		-Install Java for headless 
+			-> [sudo] apt-get install openjdk-6-jre-headless
+		-Install curl for w3c validator 
+			-> [sudo] apt-get install curl
+		-Install termcolor for terminal color
+			-> [sudo] pip install termcolor
+		
+	 Running in Headless:
+		If you want to run selenium in the background and in headless mode on start-up. Added these commands to /etc/rc.local
+		
+		Xvfb :4444 -ac -screen 0 1024x768x8 > /tmp/xvfb.log 2>&1 &
+		export DISPLAY=localhost:4444.0 && java -jar /home/dev/wapf/selenium_standalone/selenium-server-standalone-2.13.0.jar  > /tmp/selenium_server.log 2>&1 &
+		
+		(Note: Adjust your path if need be. /wapf/selenium_standalone might not be in /home/dev/)
+		
+		I also added this command " export DISPLAY=:99 " to my .profile (or .bash_profile) so the firefox will work headless. If you don't add this to .profile file on start-up you'll have to manually execute that command.
 	
 
 
