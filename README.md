@@ -6,6 +6,8 @@ Wapf is a web analyzing and profiling framework built with python and selenium. 
 
 ## FEATURES:
 *	Multiprocessing recursive crawler
+*	Multiprocess multiple core and custom scripts
+*	Custom configuration file management system
 *	Validate using w3c validation
 *	Profile web pages using selenium standalone server
 *	Write functional tests (requires selenium module to be installed)
@@ -17,8 +19,9 @@ Wapf is a web analyzing and profiling framework built with python and selenium. 
 *	zip/unzip files
 *	data conversions
 *	HTTP analyzing
+*	Custom utilities
 
-	
+
 ## INSTALLATION/SETUP:
 This framework has been tested on Ubuntu 11.10 and Mac OS X 10.6.8 and should work on any unix/linux distro. Windows has not been tested! 
 	
