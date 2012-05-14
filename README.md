@@ -32,7 +32,7 @@ If using Ubuntu, don't forget to update:
 	
 Unix/Linux Package:
 *	Install python selenium webdriver 
-	*	""[sudo] easy_install selenium or [sudo] pip install selenium""
+	*	[sudo] easy_install selenium or [sudo] pip install selenium
 *	Install Firefox and other packages to run headless:
 	*	[sudo] sudo apt-get install firefox
 	*	[sudo] apt-get install xvfb
@@ -46,40 +46,32 @@ Unix/Linux Package:
 	
 ##### Running in Headless:
 If you want to run selenium in the background and in headless mode on start-up. Added these commands to /etc/rc.local
+    Xvfb :4444 -ac -screen 0 1024x768x8 > /tmp/xvfb.log 2>&1 &
+    export DISPLAY=localhost:4444.0 && java -jar /home/dev/wapf/selenium_standalone/selenium-server-standalone-2.13.0.jar  > /tmp/selenium_server.log 2>&1 &
 	
-	Xvfb :4444 -ac -screen 0 1024x768x8 > /tmp/xvfb.log 2>&1 &
-	export DISPLAY=localhost:4444.0 && java -jar /home/dev/wapf/selenium_standalone/selenium-server-standalone-2.13.0.jar  > /tmp/selenium_server.log 2>&1 &
+(Note: Adjust your path if need be. /wapf/selenium_standalone might not be in /home/dev/)
 	
-	(Note: Adjust your path if need be. /wapf/selenium_standalone might not be in /home/dev/)
-	
-	I also added this command " export DISPLAY=:99 " to my .profile (or .bash_profile) so the firefox will work headless. If you don't add this to .profile file on start-up you'll have to manually execute that command.
+I also added this command " export DISPLAY=:99 " to my .profile (or .bash_profile) so the firefox will work headless. If you don't add this to .profile file on start-up you'll have to manually execute that command.
 	
 
 
 #### 2) DOWNLOAD AND USE VM: (Download and use the Wapf Ubuntu VM)
 	
- I have created a VM (with VMware) that has everything already setup and ready to run out of the box. If you decide to use this option. Just download and install the VMware image. 
-	
- Start up the VM and login with:
- Username: dev
- Password 2%Milk
-	
+ I have created a VM (with VMware) that has everything already setup and ready to run out of the box. If you decide to use this option. Just email me and I'll give you a link to the download VMware image. 
+ 
+ VM Link coming soon!
 
+	
 ## USAGE:
-The basic:
+#####	The basic:
+Everything runs through the runWAPF.py script. This allows for you to utilize all of wapf's features. Here is the basic syntax for running a basic command:
 
-	-Everything runs through the runWAPF.py script. This allows for you to utilize all of wapf's features. Here is the basic syntax for running a basic command:
+    python runWAPF.py <command>
 	
-		python runWAPF.py <command>
-	
-	
-	There are 3 main mode that wapf has currently:
-	
-	Mode 1: Multiprocessing using global configuration 
-	
-	Mode 2: Single processing using custom configuration 
-	
-	Mode 3: Single processing utility scripting
+#####	There are 3 main mode that wapf has currently:
+*	Mode 1: Multiprocessing using global configuration 
+*	Mode 2: Single processing using custom configuration 
+*	Mode 3: Single processing utility scripting
 	
 	
 More details coming soon….
