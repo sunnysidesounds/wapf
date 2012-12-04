@@ -13,7 +13,6 @@ import re
 import multiprocessing
 import httplib
 import time
-import csv
 from random import choice
 from termcolor import colored
 sys.path.append( os.path.join( os.getcwd(), '..' ) )
@@ -37,7 +36,6 @@ messageErrorClass = 'error-msg'
 messageClass = 'ul.messages'
 matchNoProductUrl = 'http://www.zumiez.com/catalogsearch/result'
 
-# --------------------------------------------------------------------------------------------------------------------------------------------------------------- #
 def removeFromList(the_list, match):
 	"""Used for removing color and size: tile- tags """
 	newlist = []
@@ -48,7 +46,6 @@ def removeFromList(the_list, match):
 			newlist.append(item)
 	return newlist
 
-# --------------------------------------------------------------------------------------------------------------------------------------------------------------- #
 def getSkusFromFile(file_name):
 	"""Used to extract sku's line by line and put them into a list """
 	skuList = []
@@ -64,22 +61,11 @@ def getSkusFromFile(file_name):
 			sku = sku[:-1]
 			skuList.append(sku)
 	return skuList
-
-# --------------------------------------------------------------------------------------------------------------------------------------------------------------- #
-def getSkusFromCsv(file_name):
-	"""Used to extract sku's from a csv file """
-	skuList = []
-	logPath = '../log/'
-	skuFile = file_name
-	reader = csv.reader(open(logPath +skuFile+'.csv', "rb"))
-	for row in reader:
-		sku = row[0]
-		skuList.append(sku)
-
-	return skuList
-
-
-productSkuList = getSkusFromCsv("configurables_100812")
+			
+#Little list for simple testing
+#productSkuList = ['183778', '188028', '100460']
+#Full list of skus from file
+productSkuList = getSkusFromFile("active_product_configurables")
 
 
 #CHECKOUT STEP 1 VALUES & FUNCTIONS
@@ -97,11 +83,10 @@ email = 'developer@zumiez.com'
 
 #CHECKOUT STEP 2 VALUES & FUNCTIONS
 # --------------------------------------------------------------------------------------------------------------------------------------------------------
-shippingClickLibrary = {"tablerateeconomy_bestway": "(//input[@name='method'])[2]", 
-									"tableratestandard_bestway":"(//input[@name='method'])[3]", 
-									"tablerateexpress_bestway":"(//input[@name='method'])[4]", 
-									"tableratenextday_bestway":"(//input[@name='method'])[5]"}
-
+shippingClickLibrary = {'tablerateeconomy_bestway': '/html/body/div[2]/div/div[2]/div/div[3]/form/table/tbody/tr[2]/td/input', 
+									'tableratestandard_bestway':'/html/body/div[2]/div/div[2]/div/div[3]/form/table/tbody/tr[3]/td/input', 
+									'tablerateexpress_bestway':'/html/body/div[2]/div/div[2]/div/div[3]/form/table/tbody/tr[4]/td/input', 
+									'tableratenextday_bestway':'/html/body/div[2]/div/div[2]/div/div[3]/form/table/tbody/tr[5]/td/input'}
 
 
 #CHECKOUT STEP 3 VALUES & FUNCTIONS
