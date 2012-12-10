@@ -67,18 +67,27 @@ I also added this command " export DISPLAY=:99 " to my .profile (or .bash_profil
 
 	
 ## USAGE:
-#####	The basic:
+#####	The basics:
 Everything runs through the runWAPF.py script. This allows for you to utilize all of wapf's features. Here is the basic syntax for running a basic command:
 
-    python runWAPF.py <command>
+    python runWAPF.py <command> <optional_config> or ./runWAPF.py <command> <optional_config>
 	
 #####	There are 3 main mode that wapf has currently:
 *	Mode 1: Multiprocessing using global configuration 
 *	Mode 2: Single processing using custom configuration 
 *	Mode 3: Single processing utility scripting
 	
-	
-More details coming soon….
+
+#####	 Helpful commands to get you started:
+
+To list all core and custom commands:
+    python runWAPF.py list
+
+
+
+
+#####	Mode 1: Multiprocessing using global configuration:
+
 
  
  
