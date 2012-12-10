@@ -70,12 +70,14 @@ I also added this command " export DISPLAY=:99 " to my .profile (or .bash_profil
 #####	The basics:
 Everything runs through the runWAPF.py script. This allows for you to utilize all of wapf's features. Here is the basic syntax for running a basic command:
 
-    python runWAPF.py <command> <optional_config>
+    python runWAPF.py <optional_utility_trigger> <command> <optional_config>
+
 	
 #####	There are 3 main mode that wapf has currently:
 *	Mode 1: Multiprocessing using global configuration 
 *	Mode 2: Single processing using custom configuration 
 *	Mode 3: Single processing utility scripting
+
 	
 #####	 Helpful commands to get you started:
 
@@ -97,6 +99,7 @@ To list all current core commands (The command list growing):
 
 *	``` python runWAPF.py w3c ``` ---> This runs a w3c validator on any select page. Note all profiler data is logged to the w3c_results_<current_date> files in the log/ directory by default. You  can change this is need be.
 
+
 #####	 Configuration files (core/custom):
 
 **CORE CONFIG:** One of the first things you should do when you're working with Wapf is to take a look at the config.py in the root directory. This configuration files is the heart of the framework. Below is a list of some of the core settings you should consider changing to meet your needs. 
@@ -113,6 +116,17 @@ You also have the option to pool specific urls, or sub-urls to specific commands
 
 The ability to use command-specific-configuration files allows you to scan multiple domains as sub-domains as well as hitting each app server in that domains farms. 
 
+
+#####	 Utility Scripts:
+Utility scripts are any python script you want to add to the framework. By adding it to the framework your able to utilize many of the core features.  To get started, simply add your utility script to the utilities/ directory and run it with the framwork using this syntax:
+
+    python runWAPF.py -u <name_of_script> <script_arguments>
+
+An example to run a port scan on a domain you would run this command:
+
+    python runWAPF.py -u pscan http://www.<your_domain>.com
+
+Replacing <your_domain> with the domain you want to scan. Note, the configuration file system hasn't been fully implemented. Evenutally you will be able to pass arguments to these utility scripts using either a core/custom configuration files. 
 
  
  
