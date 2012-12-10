@@ -77,6 +77,14 @@ Everything runs through the runWAPF.py script. This allows for you to utilize al
 *	Mode 2: Single processing using custom configuration 
 *	Mode 3: Single processing utility scripting
 	
+#####	 Helpful commands to get you started:
+
+To list all current core and custom commands:
+
+    python runWAPF.py list
+
+
+
 #####	 Configuration files (core/custom):
 
 **CORE CONFIG:** One of the first things you should do when you're working with Wapf is to take a look at the config.py in the root directory. This configuration files is the heart of the framework. Below is a list of some of the core settings you should consider changing to meet your needs. 
@@ -91,12 +99,10 @@ You also have the option to pool specific urls, or sub-urls to specific commands
 
     python runWAPF.py list config_list
 
+The ability to use command-specific-configuration files allows you to scan multiple domains as sub-domains as well as hitting each app server in that domains farms. 
 
-#####	 Helpful commands to get you started:
 
-To list all core and custom commands:
 
-    python runWAPF.py list
 
 
 
