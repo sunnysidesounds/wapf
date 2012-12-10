@@ -82,8 +82,14 @@ Everything runs through the runWAPF.py script. This allows for you to utilize al
 To list all current core commands (The command list growing):
 
 ``` python runWAPF.py list ``` ---> display list of all current core and custom commands.
+
 ``` python runWAPF.py help ``` ---> display's how to install, run and setup wapf. (TODO: instead of reading.txt, we want to evenutally read README.md)
+
 ``` python runWAPF.py crawler ``` ---> This is the frameworks crawler command. By using the configuration file you can crawl a site extract multiple of stuff. This specific command extract just urls it finds in the page. But you could easily extent this to extract other things. 
+
+``` python runWAPF.py keyword ``` ---> This will do a keyword denstity test on any urls you specific in th configuration file.
+
+``` python runWAPF.py screenshot ``` ---> This takes screenshots and stores them in the screenshots/ directory under the current date. Note, currently only works with the browser setting of 'firefox'
 
 #####	 Configuration files (core/custom):
 
