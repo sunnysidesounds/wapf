@@ -79,11 +79,9 @@ Everything runs through the runWAPF.py script. This allows for you to utilize al
 	
 #####	 Helpful commands to get you started:
 
-To list all current core and custom commands:
+To list all current core and custom commands (The command list growing):
 
-    python runWAPF.py list
-
-
+``` python runWAPF.py list ``` display list of all current core and custom commands.
 
 #####	 Configuration files (core/custom):
 
@@ -104,10 +102,7 @@ The ability to use command-specific-configuration files allows you to scan multi
 
 
 
-
-
-
-#####	Mode 1: Multiprocessing using global configuration:
+#####	**Mode 1:** Multiprocessing using global configuration:
 
 
  
