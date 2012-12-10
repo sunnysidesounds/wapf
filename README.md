@@ -136,8 +136,7 @@ By running this commands ``` python runWAPF.py screenshot ``` you will take scre
 
 ####	 Custom Commands (Setup, usage and examples):
 
-**Usage / Examples:**
-Custom commands are located in the custom/ directory and are used for specific tasks that utilitize selenium and the Wapf framework. These custom commands use the same syntax as the core commands.The current scripts located in custom are related to a ecommerce website Zumiez.com. I left these scripts to give you some examples of what you can do. These are what these example scripts do:
+**Usage / Examples:** Custom commands are located in the custom/ directory and are used for specific tasks that utilitize selenium and the Wapf framework. These custom commands use the same syntax as the core commands.The current scripts located in custom are related to a ecommerce website Zumiez.com. I left these scripts to give you some examples of what you can do. These are what these example scripts do:
 
 *	``` python runWAPF.py zcheckout ``` : Picks a random sku (sourced: from a txt file of skus) and checkouts of the Zumiez.com ecommerce website. 
 *	``` python runWAPF.py zcheckout110 ``` : Picks a random sku (sourced: from a txt file of skus) and checkouts of the new version (1.10) Zumiez.com ecommerce website. 
@@ -145,9 +144,7 @@ Custom commands are located in the custom/ directory and are used for specific t
 *	``` python runWAPF.py zleftbag ``` : Checks all left nav links on Zumiez.com storefronts for 404 links due to the use of Endeca. 
 *	``` python runWAPF.py zmybag ``` : Checks the cart functionality. 
 
-**New Script Setup:**
-
-Take a look at the current custom commands to see how to script a custom command (i.e. script) All custom command scripts should have at least these modules imported:
+**New Script Setup:** Take a look at the current custom commands to see how to script a custom command. All custom command scripts should have at least these modules imported:
 
     import sys
     import os
@@ -163,6 +160,7 @@ Take a look at the current custom commands to see how to script a custom command
     import wapf
     import config 
 
+The two most import modules you'll need are the wapf (core module) and config (configuration module) modules.
 
 
 ## TODOS:
