@@ -77,6 +77,19 @@ Everything runs through the runWAPF.py script. This allows for you to utilize al
 *	Mode 2: Single processing using custom configuration 
 *	Mode 3: Single processing utility scripting
 	
+#####	 Configuration files (core/custom):
+
+CORE CONFIG: One of the first things you should do when you're working with Wapf is to take a look at the config.py in the root directory. This configuration files is the heart of the framework. Below is a list of some of the core settings you should consider changing to meet your needs. 
+*	baseUrl: Set the main url you will use to run your scans. 
+*	browser: Set the browser your want selenium to use. Current options are: firefox, chrome. (chrome may have bugs)
+*	enableWrite: Value is 1 or 0. This just turns on/off logging and writing of anything.
+*	serverFarmMap: Set all host/ips of your app servers and run wapf commands on the farm. Current example can be found in the custom command zfarm (i.e. zfarm.py)
+
+You also have the option to pool specific urls, or sub-urls to specific commands. As this is still in development. The basic idea is that you could run multiple commands at multiple urls simultaneously using the pythons multi-processing module.
+
+CUSTOM CONFIG:
+
+
 #####	 Helpful commands to get you started:
 
 To list all core and custom commands:
