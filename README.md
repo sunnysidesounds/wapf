@@ -147,7 +147,21 @@ Custom commands are located in the custom/ directory and are used for specific t
 
 **New Script Setup:**
 
-Coming soon ....
+Take a look at the current custom commands to see how to script a custom command (i.e. script) All custom command scripts should have at least these modules imported:
+
+    import sys
+    import os
+    import re
+    import multiprocessing
+    import httplib
+    import time
+    import csv
+    from random import choice
+    from termcolor import colored
+    sys.path.append( os.path.join( os.getcwd(), '..' ) )
+    #custom modules
+    import wapf
+    import config 
 
 
 
