@@ -81,11 +81,10 @@ Everything runs through the runWAPF.py script. This allows for you to utilize al
 
 To list all current core commands (The command list growing):
 
-*	``` python runWAPF.py list ``` 
-	---> display list of all current core and custom commands.
+Display list of all current core and custom commands.
+    python runWAPF.py list
 
-*	``` python runWAPF.py version ``` 
-	---> display framework version.
+*	``` python runWAPF.py version ``` ---> display framework version.
 
 *	``` python runWAPF.py help ``` ---> display's how to install, run and setup wapf. (TODO: instead of reading.txt, we want to evenutally read README.md)
 
