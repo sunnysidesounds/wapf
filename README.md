@@ -136,7 +136,16 @@ By running this commands ``` python runWAPF.py screenshot ``` you will take scre
 
 ####	 Custom Commands (Setup, usage and examples):
 
-Coming soon....
+***Usage / Examples ***
+Custom commands are located in the custom/ directory and are used for specific tasks that utilitize selenium and the Wapf framework. These custom commands use the same syntax as the core commands.The current scripts located in custom are related to a ecommerce website Zumiez.com. I left these scripts to give you some examples of what you can do. These are what these example scripts do:
+
+*	``` python runWAPF.py zcheckout ``` : Picks a random sku (sourced: from a txt file of skus) and checkouts of the Zumiez.com ecommerce website. 
+*	``` python runWAPF.py zcheckout110 ``` : Picks a random sku (sourced: from a txt file of skus) and checkouts of the new version (1.10) Zumiez.com ecommerce website. 
+*	``` python runWAPF.py zfarm ``` : Checks all active app servers running Zumiez.com (Note: IP addresses have changed)
+*	``` python runWAPF.py zleftbag ``` : Checks all left nav links on Zumiez.com storefronts for 404 links due to the use of Endeca. 
+*	``` python runWAPF.py zmybag ``` : Checks the cart functionality. 
+
+*** New Script Setup ***
 
 
 
