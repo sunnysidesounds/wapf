@@ -136,6 +136,8 @@ By running this commands ``` python runWAPF.py screenshot ``` you will take scre
 
 ####	 Custom Commands (Setup, usage and examples):
 
+Coming soon....
+
 
 
 ## TODOS:
