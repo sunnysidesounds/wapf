@@ -13,6 +13,8 @@
 import sys
 import os
 sys.path.append( os.path.join( os.getcwd(), '..' ) )
+#custom modules
+import wapf
 
 if __name__ == '__main__':
 	
@@ -32,26 +34,15 @@ if __name__ == '__main__':
 		import config
 	# ---------------------------------------------------------------------------------------------------
 
-	# Get file contents
-	fd = open('../readme.txt')
-	contents = fd.readlines()
-	fd.close()
-	
-	new_contents = []
-	
-	# Get rid of empty lines
-	for line in contents:
-	    # Strip whitespace, should leave nothing if empty line was just "\n"
-	    if not line.strip():
-	        continue
-	    # We got something, save it
-	    else:
-	        line = line.replace("*", " ", 3)
-	        line = line.replace("<version>", config.wapfVersion, 3)
-	        line = line.replace("NOTE: THIS FILE IS PARSED BY THE FRAMEWORK. FOR BETTER READABILITY RUN 'help'", " ", 3)
-	        new_contents.append(line)
-	
-	# Print file sans empty lines
-	print "".join(new_contents)
-
-
+	print 'Most up-to-date help documentation is located at: ' + str(config.readmeDoc) + '\n'
+	openBrowser = raw_input('Are you running this framework in headless mode?(Y/N) ')
+	print '\n'
+	if(openBrowser == 'Y' or openBrowser == 'y'):
+		print 'Please go to ' + str(config.readmeDoc) + ' for the most up-to-date help documentation '
+		print '\n'
+	else:
+		print 'Opening help documentation in new browser window! \n'
+		wobj = wapf.wapf(config.baseUrl, config.browser)
+		browser = wobj.setBrowser(config.browser)
+		browser.get(config.readmeDoc)
+		

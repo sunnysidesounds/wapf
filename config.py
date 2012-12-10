@@ -20,6 +20,7 @@ enableWrite = 1
 today = time.strftime("%m%d%Y")
 systemDates = time.strftime("%Y-%m-%d %H:%M:%S")
 wapfVersion = 'Version 1.1.0 alpha'
+readmeDoc = 'https://github.com/sunnysidesounds/wapf/blob/master/README.md'
 
 #File Related
 #################################

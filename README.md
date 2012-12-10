@@ -87,7 +87,7 @@ To list all current core commands (The command list growing):
 
 *	``` python runWAPF.py version ``` : display framework version.
 
-*	``` python runWAPF.py help ``` : display's how to install, run and setup wapf. (TODO: instead of reading.txt, we want to evenutally read README.md)
+*	``` python runWAPF.py help ``` : display's how to install, run and setup wapf.
 
 *	``` python runWAPF.py crawler ``` : This is the frameworks crawler command. By using the configuration file you can crawl a site extract multiple of stuff. This specific command extract just urls it finds in the page. But you could easily extent this to extract other things. Note all crawler data is logged to the crawler_results_<current_date> files in the log/ directory by default. You  can change this is need be. 
 
@@ -134,13 +134,12 @@ All logging happens in the /log directory. You can change the name of the loggin
 ####	 Screenshots:
 By running this commands ``` python runWAPF.py screenshot ``` you will take screenshots of any of the urls you put in your configuration files. See alphaLIst, betaList. Note all screenshots are stored in the screenshot/ directory under the current date. Also,  currently this features only works with the firefox browser. 
 
-####	 Custom Commands (Setup and examples):
+####	 Custom Commands (Setup, usage and examples):
 
 
 
 ## TODOS:
 Below is a list of current things still under development. 
-*	Replace readme.txt with README.md
 *	Add configuration file system to utility scripts. 
 *	Add safari and fix chrome browser bugs.
 *	Add functionality to start selenium standalone by itself and run in the background. 
