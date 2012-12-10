@@ -77,10 +77,10 @@ Everything runs through the runWAPF.py script. This allows for you to utilize al
 *	Mode 2: Single processing using custom configuration 
 *	Mode 3: Single processing utility scripting
 	
-
 #####	 Helpful commands to get you started:
 
 To list all core and custom commands:
+
     python runWAPF.py list
 
 
