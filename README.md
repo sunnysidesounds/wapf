@@ -87,7 +87,9 @@ CORE CONFIG: One of the first things you should do when you're working with Wapf
 
 You also have the option to pool specific urls, or sub-urls to specific commands. As this is still in development. The basic idea is that you could run multiple commands at multiple urls simultaneously using the pythons multi-processing module.
 
-CUSTOM CONFIG:
+CUSTOM CONFIG: Now take a look in the config/ directory. You will see a list of command-specifc-configuration files. These files work just as the core config. The only difference is if you want to run the command-specifc configuraiton file you'd run it using the second command option. An example would be:
+
+    python runWAPF.py list config_list
 
 
 #####	 Helpful commands to get you started:
