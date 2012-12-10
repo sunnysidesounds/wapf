@@ -83,21 +83,21 @@ Everything runs through the runWAPF.py script. This allows for you to utilize al
 
 To list all current core commands (The command list growing):
 
-*	``` python runWAPF.py list ``` ---> display list of all current core and custom commands.
+*	``` python runWAPF.py list ``` : display list of all current core and custom commands.
 
-*	``` python runWAPF.py version ``` ---> display framework version.
+*	``` python runWAPF.py version ``` : display framework version.
 
-*	``` python runWAPF.py help ``` ---> display's how to install, run and setup wapf. (TODO: instead of reading.txt, we want to evenutally read README.md)
+*	``` python runWAPF.py help ``` : display's how to install, run and setup wapf. (TODO: instead of reading.txt, we want to evenutally read README.md)
 
-*	``` python runWAPF.py crawler ``` ---> This is the frameworks crawler command. By using the configuration file you can crawl a site extract multiple of stuff. This specific command extract just urls it finds in the page. But you could easily extent this to extract other things. Note all crawler data is logged to the crawler_results_<current_date> files in the log/ directory by default. You  can change this is need be. 
+*	``` python runWAPF.py crawler ``` : This is the frameworks crawler command. By using the configuration file you can crawl a site extract multiple of stuff. This specific command extract just urls it finds in the page. But you could easily extent this to extract other things. Note all crawler data is logged to the crawler_results_<current_date> files in the log/ directory by default. You  can change this is need be. 
 
-*	``` python runWAPF.py keyword ``` ---> This will do a keyword denstity test on any urls you specific in th configuration file.
+*	``` python runWAPF.py keyword ``` : This will do a keyword denstity test on any urls you specific in th configuration file.
 
-*	``` python runWAPF.py screenshot ``` ---> This takes screenshots and stores them in the screenshots/ directory under the current date. Note, currently only works with the browser setting of 'firefox'
+*	``` python runWAPF.py screenshot ``` : This takes screenshots and stores them in the screenshots/ directory under the current date. Note, currently only works with the browser setting of 'firefox'
 
-*	``` python runWAPF.py profiler ``` ---> This will return http requests, page timing, list of files used on page, request specific status-method-doc-size-time data. Note all profiler data is logged to the profiler_results_<current_date> files in the log/ directory by default. You  can change this is need be.  Also this command requires that the selenium standalone server by runnings. To start this server run ```cd selenium_standalone/ && ./start_selenium.sh ``` from the root of the Wapf directory.
+*	``` python runWAPF.py profiler ``` : This will return http requests, page timing, list of files used on page, request specific status-method-doc-size-time data. Note all profiler data is logged to the profiler_results_<current_date> files in the log/ directory by default. You  can change this is need be.  Also this command requires that the selenium standalone server by runnings. To start this server run ```cd selenium_standalone/ && ./start_selenium.sh ``` from the root of the Wapf directory.
 
-*	``` python runWAPF.py w3c ``` ---> This runs a w3c validator on any select page. Note all profiler data is logged to the w3c_results_<current_date> files in the log/ directory by default. You  can change this is need be.
+*	``` python runWAPF.py w3c ``` : This runs a w3c validator on any select page. Note all profiler data is logged to the w3c_results_<current_date> files in the log/ directory by default. You  can change this is need be.
 
 
 #####	 Configuration files (core/custom):
@@ -122,11 +122,27 @@ Utility scripts are any python script you want to add to the framework. By addin
 
     python runWAPF.py -u <name_of_script> <script_arguments>
 
-An example to run a port scan on a domain you would run this command:
+An example to run a port scan on a domain you would run this command (Note. pscan is apart of the current utility script core):
 
     python runWAPF.py -u pscan http://www.<your_domain>.com
 
 Replacing <your_domain> with the domain you want to scan. Note, the configuration file system hasn't been fully implemented. Evenutally you will be able to pass arguments to these utility scripts using either a core/custom configuration files. 
+
+
+## TODOS:
+Below is a list of current things still under development. 
+*	Replace readme.txt with README.md
+*	Add configuration file system to utility scripts. 
+*	Add safari and fix chrome browser bugs.
+*	Add functionality to start selenium standalone by itself and run in the background. 
+*	Add VM link
+
+
+
+
+
+
+
 
  
  
