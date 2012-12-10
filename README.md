@@ -70,7 +70,7 @@ I also added this command " export DISPLAY=:99 " to my .profile (or .bash_profil
 #####	The basics:
 Everything runs through the runWAPF.py script. This allows for you to utilize all of wapf's features. Here is the basic syntax for running a basic command:
 
-    python runWAPF.py <command> <optional_config> or ./runWAPF.py <command> <optional_config>
+    python runWAPF.py <command> <optional_config>
 	
 #####	There are 3 main mode that wapf has currently:
 *	Mode 1: Multiprocessing using global configuration 
@@ -79,9 +79,11 @@ Everything runs through the runWAPF.py script. This allows for you to utilize al
 	
 #####	 Helpful commands to get you started:
 
-To list all current core and custom commands (The command list growing):
+To list all current core commands (The command list growing):
 
-``` python runWAPF.py list ``` display list of all current core and custom commands.
+``` python runWAPF.py list ``` ---> display list of all current core and custom commands.
+``` python runWAPF.py help ``` ---> display's how to install, run and setup wapf. (TODO: instead of reading.txt, we want to evenutally read README.md)
+``` python runWAPF.py crawler ``` ---> This is the frameworks crawler command. By using the configuration file you can crawl a site extract multiple of stuff. This specific command extract just urls it finds in the page. But you could easily extent this to extract other things. 
 
 #####	 Configuration files (core/custom):
 
