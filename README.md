@@ -81,7 +81,8 @@ Everything runs through the runWAPF.py script. This allows for you to utilize al
 
 To list all current core commands (The command list growing):
 
-*	``` python runWAPF.py list ``` ---> display list of all current core and custom commands.
+*	``` python runWAPF.py list ``` 
+	---> display list of all current core and custom commands.
 
 *	``` python runWAPF.py version ``` ---> display framework version.
 
@@ -112,9 +113,6 @@ You also have the option to pool specific urls, or sub-urls to specific commands
     python runWAPF.py list config_list
 
 The ability to use command-specific-configuration files allows you to scan multiple domains as sub-domains as well as hitting each app server in that domains farms. 
-
-
-#####	**Mode 1:** Multiprocessing using global configuration:
 
 
  
