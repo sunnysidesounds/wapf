@@ -60,12 +60,19 @@ I also added this command " export DISPLAY=:99 " to my .profile (or .bash_profil
 
 
 #### 2) DOWNLOAD AND USE VM: (Download and use the Wapf Ubuntu VM)
-	
- I have created a VM (with VMware) that has everything already setup and ready to run out of the box. If you decide to use this option. Just email me and I'll give you a link to the download VMware image. 
- 
- VM Link coming soon!
+Below are the steps used to setup a VM of Wapf. Please email me and I will give you a link of where you can download the 5GB VM image. Note, these instruction are specific for Mac OS X and VMware fusions. 
 
-	
+1. Download the VM from the email I sent you.
+2. Copy this VM into /Users/<your_username>/Documents/Virtual Machines.localized directory
+3. Drag the Wapf virtual machine image from the finder window into the VMWare Fusion machine list and choose “Settings”.
+4. Start the image and VMWare Fusion will ask you whether it was moved or copied, select the latter (copied) and continue as normal. This question will only occur once.
+5. One you have the image setup, boot-up the image and enter username/password (dev, 2%Milk) 
+6. Setup your github .ssh using these instruction --> https://help.github.com/articles/generating-ssh-keys
+7. cd to /home/dev and pull down the repo by ```git clone git@github.com:sunnysidesounds/wapf.git``` It should make a directory in /home/dev called wapf. This is what we want. 
+8. After the repo has been download we need to do a restart, run ```sudo shutdown -h now``` We need to do this as this VM on reboot will start some required Wapf services. This includes the selenium standalone server that starts on server start. 
+9. Make sure the directories log, screenshots are writable. You shouldn't have to do anything. But if for some reason this is a directory write issues,  run these commands ```sudo chmod 777 /home/dev/wapf/log/``` and ```sudo chmod 777 /home/dev/wapf/screenshots/```
+10. Your ready to look at thes Usage section.
+
 ## USAGE:
 ####	The basics:
 Everything runs through the runWAPF.py script. This allows for you to utilize all of wapf's features. Here is the basic syntax for running a basic command:
