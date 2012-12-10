@@ -107,9 +107,6 @@ You also have the option to pool specific urls, or sub-urls to specific commands
 The ability to use command-specific-configuration files allows you to scan multiple domains as sub-domains as well as hitting each app server in that domains farms. 
 
 
-
-
-
 #####	**Mode 1:** Multiprocessing using global configuration:
 
 
