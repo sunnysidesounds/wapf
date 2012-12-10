@@ -128,6 +128,15 @@ An example to run a port scan on a domain you would run this command (Note. psca
 
 Replacing <your_domain> with the domain you want to scan. Note, the configuration file system hasn't been fully implemented. Evenutally you will be able to pass arguments to these utility scripts using either a core/custom configuration files. 
 
+#####	 Logging:
+All logging happens in the /log directory. You can change the name of the logging files by viewing the core configuration files (config.py)
+
+#####	 Screenshots:
+By running this commands ``` python runWAPF.py screenshot ``` you will take screenshots of any of the urls you put in your configuration files. See alphaLIst, betaList. Note all screenshots are stored in the screenshot/ directory under the current date. Also,  currently this features only works with the firefox browser. 
+
+#####	 Custom Commands (Setup and examples):
+
+
 
 ## TODOS:
 Below is a list of current things still under development. 
