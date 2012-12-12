@@ -511,18 +511,21 @@ class wapf(object):
 	    	csvLogFile = '../log/' + writeFile
 
 	    	total_profile_size = str(total_size) + ' kb'
-	    	
+	    	self.csvWrite(['', '' , '', '', ''], csvLogFile)
 	    	self.csvWrite(['Total Page Size: ', total_profile_size , '', '', ''], csvLogFile)
 	    	self.csvWrite(['Total HTTP Requests: ', num_requests , '', '', ''], csvLogFile)
+	    	self.csvWrite(['', '' , '', '', ''], csvLogFile)
 	    	self.csvWrite(['HTTP Requests Breakdown:', '', '', '', ''], csvLogFile)
+	    	self.csvWrite(['STATUS', 'COUNT', '', '', ''], csvLogFile)
 	    	for k,v in sorted(status_map.items()):
-	    		status =  str(k) + ' status'
-	    		self.csvWrite([status, v , '', '', ''], csvLogFile)
+	    		self.csvWrite([k, v , '', '', ''], csvLogFile)
 
-	    	self.csvWrite(['File Extensions Breakdown: ', '' , '', '', ''], csvLogFile)
+	    	self.csvWrite(['', '' , '', '', ''], csvLogFile)
+	    	self.csvWrite(['File Breakdown: ', '' , '', '', ''], csvLogFile)
+	    	self.csvWrite(['EXTENSION', 'COUNT', 'SIZE', '', ''], csvLogFile)
 	    	for k,v in sorted(file_extension_map.items()):			
 	    		extensionSize = str(v[1])+ ' kb'
-	    		extensionCount = str(v[0]) + ' total'
+	    		extensionCount = str(v[0])  
 	    		extensionExt = str(k)
 	    		self.csvWrite([extensionExt, extensionCount , extensionSize, '', ''], csvLogFile)
 	    	
@@ -530,6 +533,7 @@ class wapf(object):
 	    	self.csvWrite(['STATUS', 'METHOD', 'DOC', 'SIZE', 'TIME'], csvLogFile)
 		for details in http_details:
 			self.csvWrite([details[0], details[1], details[2], details[3], details[4]], csvLogFile)
+		self.csvWrite(['', '', '', '', ''], csvLogFile)
 	    else:
 		    self.message('', writeFile)	    
 		    #self.message('results for %s' % site, writeFile)
