@@ -19,6 +19,7 @@ import json
 import commands
 import re
 import os
+import csv
 import random
 import httplib
 import urlparse
@@ -468,7 +469,7 @@ class wapf(object):
 	    self.browserDriver.get_screenshot_as_file('../screenshots/'+ folder +'/screenshot_'+self.browser+'_'+fileMessage+'.png')
 	
 	# --------------------------------------------------------------------------------------------------------------------------------------------------------------- # 
-	def runProfiler(self, site, path, browser, writeFile = ''):  
+	def runProfiler(self, site, path, browser, writeFile = '', fileFormat = ''):  
 	    '''This profiles web pages with selenium standalone server '''
 	    sel = selenium('127.0.0.1', 4444, browser, site)
 	    
@@ -505,28 +506,53 @@ class wapf(object):
 	    end_last_request_elapsed = self.getElapsedSecs(start_first_request, end_last_request)
 	    end_first_request_elapsed = self.getElapsedSecs(start_first_request, end_first_request)
 	    
-	    self.message('', writeFile)	    
-	    #self.message('results for %s' % site, writeFile)
 	    
-	    self.message('\ncontent size: %s kb' % total_size, writeFile)
-	    
-	    self.message('\nhttp requests: %s' % num_requests, writeFile)
-	    for k,v in sorted(status_map.items()):
-	        self.message('status %s: %s' % (k, v), writeFile)
-	    
-	    self.message('\nprofiler timing:', writeFile)
+	    if(fileFormat == 'csv'):
+	    	csvLogFile = '../log/' + writeFile
 
-	    self.message('%.3f secs (page load)' % end_load_elapsed, writeFile)
-	    self.message('%.3f secs (network: end last request)' % end_last_request_elapsed, writeFile)
-	    self.message('%.3f secs (network: end first request)' % end_first_request_elapsed, writeFile)
-	    
-	    self.message('\nfile extensions: (count, size)', writeFile)
-	    for k,v in sorted(file_extension_map.items()):
-	        self.message('%s: %i, %.3f kb' % (k, v[0], v[1]), writeFile)
-	        
-	    self.message('\nhttp timing detail: (status, method, doc, size, time)', writeFile)
-	    for details in http_details:
-	        self.message('%i, %s, %s, %i, %i ms' % (details[0], details[1], details[2], details[3], details[4]), writeFile)
+	    	total_profile_size = str(total_size) + ' kb'
+	    	
+	    	self.csvWrite(['Total Page Size: ', total_profile_size , '', '', ''], csvLogFile)
+	    	self.csvWrite(['Total HTTP Requests: ', num_requests , '', '', ''], csvLogFile)
+	    	self.csvWrite(['HTTP Requests Breakdown:', '', '', '', ''], csvLogFile)
+	    	for k,v in sorted(status_map.items()):
+	    		status =  str(k) + ' status'
+	    		self.csvWrite([status, v , '', '', ''], csvLogFile)
+
+	    	self.csvWrite(['File Extensions Breakdown: ', '' , '', '', ''], csvLogFile)
+	    	for k,v in sorted(file_extension_map.items()):			
+	    		extensionSize = str(v[1])+ ' kb'
+	    		extensionCount = str(v[0]) + ' total'
+	    		extensionExt = str(k)
+	    		self.csvWrite([extensionExt, extensionCount , extensionSize, '', ''], csvLogFile)
+	    	
+	    	self.csvWrite(['', '', '', '', ''], csvLogFile)
+	    	self.csvWrite(['STATUS', 'METHOD', 'DOC', 'SIZE', 'TIME'], csvLogFile)
+		for details in http_details:
+			self.csvWrite([details[0], details[1], details[2], details[3], details[4]], csvLogFile)
+	    else:
+		    self.message('', writeFile)	    
+		    #self.message('results for %s' % site, writeFile)
+		    
+		    self.message('\ncontent size: %s kb' % total_size, writeFile)
+		    
+		    self.message('\nhttp requests: %s' % num_requests, writeFile)
+		    for k,v in sorted(status_map.items()):
+		        self.message('status %s: %s' % (k, v), writeFile)
+		    
+		    self.message('\nprofiler timing:', writeFile)
+
+		    self.message('%.3f secs (page load)' % end_load_elapsed, writeFile)
+		    self.message('%.3f secs (network: end last request)' % end_last_request_elapsed, writeFile)
+		    self.message('%.3f secs (network: end first request)' % end_first_request_elapsed, writeFile)
+		    
+		    self.message('\nfile extensions: (count, size)', writeFile)
+		    for k,v in sorted(file_extension_map.items()):
+		        self.message('%s: %i, %.3f kb' % (k, v[0], v[1]), writeFile)
+		        
+		    self.message('\nhttp timing detail: (status, method, doc, size, time)', writeFile)
+		    for details in http_details:
+		        self.message('%i, %s, %s, %i, %i ms' % (details[0], details[1], details[2], details[3], details[4]), writeFile)
 	
 	# --------------------------------------------------------------------------------------------------------------------------------------------------------------- #
 	def getElapsedSecs(self, dt_start, dt_end):
@@ -690,6 +716,12 @@ class wapf(object):
 			if i!=item:
 				answer.append(i)
 		return answer
+
+	# --------------------------------------------------------------------------------------------------------------------------------------------------------------- #
+	def csvWrite(self, row, writefile):
+		"""This writes to csv file """
+		errorWriter = csv.writer(open(writefile, 'a'), quoting=csv.QUOTE_ALL)				
+		errorWriter.writerow(row)
 		
 
 # HELPER CLASSES

@@ -21,12 +21,14 @@ today = time.strftime("%m%d%Y")
 systemDates = time.strftime("%Y-%m-%d %H:%M:%S")
 wapfVersion = 'Version 1.1.0 alpha'
 readmeDoc = 'https://github.com/sunnysidesounds/wapf/blob/master/README.md'
+profilerFileFormat = 'csv' #options are text, csv
 
 #File Related
 #################################
 crawlerFileName = 'crawler_results' + str(today)
 w3cFileName = 'w3c_results_' + str(today) #if left blank it and today removed will use printMessage format (results_timestamp_browser.txt)
 profilerFileName = 'profiler_results_' + str(today) #if left blank it and today removed will use printMessage format (results_timestamp_browser.txt)
+profilerFileNameCSV = 'profiler_results_' + str(today) + '.csv'
 screenshotFileName = 'screenshots'
 customFileName = 'custom_test_'
 
@@ -39,14 +41,14 @@ templateTwo = "{0:30} {1:10}" # column widths
 #################################
 alphaList = [baseUrl + 'shoes.html', baseUrl + 'girls.html', baseUrl + 'skate.html', baseUrl + 'boys.html/', baseUrl + 'accessories.html/', baseUrl + 'snow.html/', baseUrl + 'pro-riders.html/', baseUrl + 'brands.html/']
 betaList = [baseUrl + 'test-rob-snowchat-1', baseUrl + 'test-rob-snowchat-2']
-gammaList = []
+gammaList = [baseUrl + 'shoes.html']
 deltaList = []
 epsilonList = []
 
 #data lists for specific scripts
 #################################
 crawlerList = alphaList
-profilerList = alphaList
+profilerList = gammaList
 w3cList = alphaList
 screenshotList = alphaList
 

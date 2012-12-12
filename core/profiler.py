@@ -45,6 +45,16 @@ if __name__ == '__main__':
 	for configv in config.profilerList:	
 		wobj.message('', config.profilerFileName)
 		wobj.message('[' + str(count) + '] Results for: ' + configv, config.profilerFileName)	
-		wobj.message('---------------------------------------------------', config.profilerFileName)	
-		profiler = wobj.runProfiler(configv, '/', config.browser, config.profilerFileName)
+		wobj.message('---------------------------------------------------', config.profilerFileName)
+
+		if(config.profilerFileFormat == 'csv'):
+			wobj.csvWrite(['URL PROFILED: ', configv, '', '', ''], '../log/' + config.profilerFileNameCSV)
+			fileFormatting = config.profilerFileNameCSV
+		else:
+			fileFormatting = config.profilerFileName
+		
+		#Let's run our profiler with the values from the config file
+		profiler = wobj.runProfiler(configv, '/', config.browser, fileFormatting, config.profilerFileFormat)
+		
+
 		count = count + 1
