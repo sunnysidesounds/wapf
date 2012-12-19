@@ -27,10 +27,10 @@ import config
 productClickList = []
 shippingClickList = []
 #container id of size div
-sizeDivId = 'pdp-detail-size-select'
-addToBagID = 'pdp-add-to-bag-button'
+sizeDivId = 'size-option-grid-values'
+addToBagID = 'zumiez-add-to-bag'
 viewBagText = 'View Bag'
-cartCheckout = '#cart-group-links > a > img.hover'
+cartCheckout = 'div.cart div.page-title button.button'
 zcustomFileName = 'zumiez_checkout'
 messageErrorClass = 'error-msg'
 messageClass = 'ul.messages'
@@ -63,9 +63,9 @@ def getSkusFromFile(file_name):
 	return skuList
 			
 #Little list for simple testing
-#productSkuList = ['183778', '188028', '100460']
+productSkuList = ['193824', '196553', '199084']
 #Full list of skus from file
-productSkuList = getSkusFromFile("active_product_configurables")
+#productSkuList = getSkusFromFile("active_product_configurables")
 
 
 #CHECKOUT STEP 1 VALUES & FUNCTIONS
@@ -93,6 +93,7 @@ shippingClickLibrary = {'tablerateeconomy_bestway': '/html/body/div[2]/div/div[2
 # --------------------------------------------------------------------------------------------------------------------------------------------------------
 setPaymentOption = 'cc'
 fullName = firstName + ' ' + lastName
+cardSelectionID = "fieldset dl#checkout-payment-method-load.sp-methods dl#checkout-payment-method-load.sp-methods dt.p_method input#p_method_cybersource_soap.radio"
 cardType = 'Visa'
 cardNumber = '4111111111111111'
 cardMonth = '12'
@@ -175,26 +176,20 @@ for productSku in productSkuList:
 	wobj.message("Getting system url metrics: " + currentUrl, config.customFileName + zcustomFileName)
 	wobj.message(wobj.httpRequestProfiler(currentUrl), config.customFileName + zcustomFileName)		
 	wobj.message('Getting product: ' + wobj.getPageTitle(currentUrl), config.customFileName + zcustomFileName)
-	
-	#Verify that the size div id is visble on the page.
-	wobj.message('Verifing if size element is present... ', config.customFileName + zcustomFileName)
-	if(wobj.isElementPresent(sizeDivId, browser)):	
+
+	wobj.message('Verifing sizes are element is present... ', config.customFileName + zcustomFileName)
+	if(wobj.isElementPresent(sizeDivId, browser)):
 		wobj.message('Size element is present!', config.customFileName + zcustomFileName)
-		#get all size links
-		linkIDs = browser.find_elements_by_class_name("tile")
+		linkIDs = browser.find_elements_by_class_name("select-grid-value")
 		wobj.message('Determining what sizes we have...', config.customFileName + zcustomFileName)
 		for link in linkIDs:
 			#get the id's of these class
 			getIDs = link.get_attribute('id')
-			#add them to a list
-			productClickList.append(getIDs)	
-		#remove first item as it's the color attribute
-		filterProductClickList = removeFromList(productClickList, "tile-000")
-		productClickList = filterProductClickList
+			productClickList.append(getIDs)
+
 		#display all link id for size, for easy debugging	
 		formatList = ', '.join(productClickList)
 		wobj.message('We have the following size link id(s): ' + formatList, config.customFileName + zcustomFileName)
-		
 		#Check for multiple sizes
 		if(len(productClickList) != 1):	
 			randomLinkID = choice(productClickList)	
@@ -223,10 +218,10 @@ for productSku in productSkuList:
 			#Clearing product size list for next pass of loop
 			productClickList[:] = []		
 		else:
-			wobj.message('We only have one size...', config.customFileName + zcustomFileName)			
-	#else if there is no size div id
+			wobj.message('We only have one size...', config.customFileName + zcustomFileName)	
 	else:
 		wobj.message('Size element is not present, try to add product to bag...', config.customFileName + zcustomFileName)
+		
 	
 	try:
 		#add it to bag
@@ -248,7 +243,7 @@ for productSku in productSkuList:
 		wobj.message(' ', config.customFileName + zcustomFileName)
 		browser.close()
 		continue
-	
+
 	#click view bag
 	try:
 		clickViewBag = browser.find_element_by_link_text(viewBagText).click()
@@ -266,143 +261,122 @@ for productSku in productSkuList:
 			print colored('Failed!  [' + productSku + ']', 'red', attrs=['bold'])
 			wobj.message(' ', config.customFileName + zcustomFileName)
 			browser.close()
-			continue		
-	
+			continue	
+
+	#running profiler on my bag
 	currentUrlBag = browser.current_url	
 	wobj.message("Getting My Bag url metrics: " + currentUrlBag, config.customFileName + zcustomFileName)
 	wobj.message(wobj.httpRequestProfiler(currentUrlBag), config.customFileName + zcustomFileName)	
-	
+
 	wobj.message('Product in My Bag: [sku:' + productSku + '] ' + wobj.getPageTitle(currentUrl), config.customFileName + zcustomFileName) #TODO: Change these productSku
+
 	#click "Checkout" from My Bag
 	clickCartCheckout = browser.find_element_by_css_selector(cartCheckout).click()
 	wobj.message('Clicking checkout button from My Bag...', config.customFileName + zcustomFileName)
+
+	wobj.message('Starting ONEPAGE checkout process...', config.customFileName + zcustomFileName)
 	
-	#TODO: Should verify is the form exisits 
+
 	#STEP 1
 	#let's fill out step 1 of checkout
-	print colored('CHECKOUT STEP 1:', 'blue', attrs=['bold'])
-	wobj.message('Filling out step 1 of checkout...', config.customFileName + zcustomFileName)
+	print colored('STEP 1 Billing Information', 'blue', attrs=['bold'])
+	wobj.message('Filling out Billing Information of ONEPAGE checkout...', config.customFileName + zcustomFileName)
 	#First Name
-	clearFirst = browser.find_element_by_id("first_name").clear()
-	fillFirst = browser.find_element_by_id("first_name").send_keys(firstName)
+	clearFirst = browser.find_element_by_id("billing:firstname").clear()
+	fillFirst = browser.find_element_by_id("billing:firstname").send_keys(firstName)
 	wobj.message('Inputing values: ' + firstName , config.customFileName + zcustomFileName)
 	#Last Name
-	clearLast = browser.find_element_by_id("last_name").clear()
-	fillLast = browser.find_element_by_id("last_name").send_keys(lastName)
+	clearLast = browser.find_element_by_id("billing:lastname").clear()
+	fillLast = browser.find_element_by_id("billing:lastname").send_keys(lastName)
 	wobj.message('Inputing values: ' + lastName , config.customFileName + zcustomFileName)
 	#Company
-	clearCompany = browser.find_element_by_id("company_name").clear()
-	fillCompany = browser.find_element_by_id("company_name").send_keys(company)
+	clearCompany = browser.find_element_by_id("billing:company").clear()
+	fillCompany = browser.find_element_by_id("billing:company").send_keys(company)
 	wobj.message('Inputing values: ' + company , config.customFileName + zcustomFileName)
 	#Address
-	clearAddress = browser.find_element_by_id("address1").clear()
-	fillAddress = browser.find_element_by_id("address1").send_keys(address)
+	clearAddress = browser.find_element_by_id("billing:street1").clear()
+	fillAddress = browser.find_element_by_id("billing:street1").send_keys(address)
 	wobj.message('Inputing values: ' + address , config.customFileName + zcustomFileName)
 	#City
-	clearCity = browser.find_element_by_id("city").clear()
-	fillCity = browser.find_element_by_id("city").send_keys(city)
+	clearCity = browser.find_element_by_id("billing:city").clear()
+	fillCity = browser.find_element_by_id("billing:city").send_keys(city)
 	wobj.message('Inputing values: ' + city , config.customFileName + zcustomFileName)
 	#State (select)
-	fillState = browser.find_element_by_id("state").send_keys(state)
+	fillState = browser.find_element_by_id("billing:region_id").send_keys(state)
 	wobj.message('Inputing values: ' + state , config.customFileName + zcustomFileName)
 	#Zip
-	clearZip = browser.find_element_by_id("postal_code").clear()
-	fillZip = browser.find_element_by_id("postal_code").send_keys(zipcode)
+	clearZip = browser.find_element_by_id("billing:postcode").clear()
+	fillZip = browser.find_element_by_id("billing:postcode").send_keys(zipcode)
 	wobj.message('Inputing values: ' + zipcode , config.customFileName + zcustomFileName)
 	#phone
-	clearPhone = browser.find_element_by_id("primary_phone").clear()
-	fillPhone = browser.find_element_by_id("primary_phone").send_keys(phone)
+	clearPhone = browser.find_element_by_id("billing:telephone").clear()
+	fillPhone = browser.find_element_by_id("billing:telephone").send_keys(phone)
 	wobj.message('Inputing values: ' + phone , config.customFileName + zcustomFileName)
 	#email
-	clearEmail = browser.find_element_by_id("email").clear()
-	fillEmail = browser.find_element_by_id("email").send_keys(email)
+	clearEmail = browser.find_element_by_id("billing:email").clear()
+	fillEmail = browser.find_element_by_id("billing:email").send_keys(email)
 	wobj.message('Inputing values: ' + email , config.customFileName + zcustomFileName)
 	#Next button
-	browser.find_element_by_css_selector("a[title=\"Next Step\"] > img.hover").click()
-	wobj.message('Click Next Step button, Please wait...' , config.customFileName + zcustomFileName)
-	
+	browser.find_element_by_css_selector("button#step1SubmitButton.button").click()
+	wobj.message('Click Continue button, Please wait...' , config.customFileName + zcustomFileName)
+
+
 	#STEP 2
 	#let's fill out step 2 of checkout
-	print colored('CHECKOUT STEP 2:', 'blue', attrs=['bold'])
-	wobj.message('Filling out step 2 of checkout...', config.customFileName + zcustomFileName)
-	shippingIDs = browser.find_elements_by_class_name("method")
-	for slink in shippingIDs:
-		#get the value of each shipping
-		getSIDs = slink.get_attribute('value')
-		#add them to a list
-		shippingClickList.append(getSIDs)
+	print colored('STEP 2 Shipping Information:', 'blue', attrs=['bold'])
+	wobj.message('Filling out Shipping Information of ONEPAGE checkout...', config.customFileName + zcustomFileName)
+	browser.implicitly_wait(10)
 	
-	#removing free shipping for now : TODO determine if it's possible to tell if user can have free shipping
-	shippingClickList.pop(0) #Sometimes errors out here
-	randomShippingValue = choice(shippingClickList)
-	#Clearing shipping list for next pass of loop
-	shippingClickList[:] = []
-	
-	wobj.message('Picking a random shipping value, it\'s input value is: ' + randomShippingValue, config.customFileName + zcustomFileName)
-	if (randomShippingValue in shippingClickLibrary):
-		wobj.message('Getting shipping values xPath: ' + shippingClickLibrary[randomShippingValue], config.customFileName + zcustomFileName)
-		try:
-			wobj.message('Clicking shipping radio button... ', config.customFileName + zcustomFileName)
-			#click randon shipping option by xpath
-			browser.find_element_by_xpath(shippingClickLibrary[randomShippingValue]).click()
-		except:
-			wobj.message('Error with trying to click shipping radio button trying again...', config.customFileName + zcustomFileName)
-			errorUrl = browser.current_url
-			wobj.message('Error page: ' + errorUrl, config.customFileName + zcustomFileName)
-			wobj.message('Starting over...', config.customFileName + zcustomFileName)
 
-			#uniqueFilename = wobj.getUrlEnding(configv)
-			#Let the user know what is happening
-			#print '[' + str(count) + '] ' + 'Taking screenshot of ' + configv
-			#wobj.getScreenshot(uniqueFilename, config.screenshotFileName)	
-
-
-			print colored('Failed!  [' + productSku + ']', 'red', attrs=['bold'])
-			wobj.message(' ', config.customFileName + zcustomFileName)
-			browser.close()
-			continue
-			
-			#TODO: Try to click shipping for a second time.
-			#randomShippingValue = choice(shippingClickList)
-			#shippingClickList[:] = []
-			#wobj.message('Picking a random shipping value, it\'s input value is: ' + randomShippingValue, config.customFileName + zcustomFileName)
-			#wobj.message('Clicking shipping radio button... ', config.customFileName + zcustomFileName)
-			#browser.find_element_by_xpath(shippingClickLibrary[randomShippingValue]).click()
-			#shippingClickList[:] = []
-		
-		#clicking next button
-		browser.find_element_by_css_selector("div.step2_next_step > input.hover").click()
-	else:
-		wobj.message('Error: No shipping options!! Exiting script now! ', config.customFileName + zcustomFileName)
-		#Let's exit the script
-		sys.exit()
-	
 	#STEP 3
 	#let's fill out step 3 of checkout
+	print colored('STEP 3 Shipping Method:', 'blue', attrs=['bold'])
+	wobj.message('Filling out Shipping Method of ONEPAGE checkout...', config.customFileName + zcustomFileName)
+	browser.find_element_by_css_selector("input#s_method_matrixrate_matrixrate_1681.radio").click()
+	wobj.message('Picking Standard Shipping... ', config.customFileName + zcustomFileName)
+	#Next button
+	browser.find_element_by_css_selector("div#shipping-method-buttons-container.buttons-set button.button").click()
+	wobj.message('Click Continue button, Please wait...' , config.customFileName + zcustomFileName)
+	browser.implicitly_wait(10)
+
+	#STEP 4
+	#let's fill out step 4 of checkout
 	print colored('CHECKOUT STEP 3:', 'blue', attrs=['bold'])
 	wobj.message('Filling out step 3 of checkout...', config.customFileName + zcustomFileName)
-	wobj.message('Determining what payment option to use...', config.customFileName + zcustomFileName)
-	wobj.message('Using payment option: ' + setPaymentOption, config.customFileName + zcustomFileName)
-	
-	#TODO: Determine if payment option is visble
-	if(setPaymentOption in paymentOptionList):
-		execute = paymentOptionList[setPaymentOption]
-		execute()
-	else:
-		wobj.message('Error: Could not run function!! Exiting script now! ', config.customFileName + zcustomFileName)
-		sys.exit()
-	
-	currentCOUrl = browser.current_url
-		
-	wobj.message('Placing order now... ', config.customFileName + zcustomFileName)
-	browser.find_element_by_css_selector("div.step3_next_step > input.hover").click()
+	wobj.message('Filling out Payment Information of ONEPAGE checkout...', config.customFileName + zcustomFileName)
 	browser.implicitly_wait(10)
-	print colored('Success!  [' + productSku + ']', 'green', attrs=['bold'])
-	#TODO: Check to see if checkout was successful. 
 	
+	browser.find_element_by_css_selector(cardSelectionID).click()
+	wobj.message('Picking Credit Card for payment method', config.customFileName + zcustomFileName)
+	
+	#Credit Card (select)
+	fillState = browser.find_element_by_id("cybersource_soap_cc_type").send_keys(cardType)
+	wobj.message('Inputing values: ' + cardType , config.customFileName + zcustomFileName)
+	#Credit Card Number
+	fillState = browser.find_element_by_id("cybersource_soap_cc_number").send_keys(cardNumber)
+	wobj.message('Inputing values: ' + cardNumber , config.customFileName + zcustomFileName)
+	#Credit Card Expire Month
+	fillState = browser.find_element_by_id("cybersource_soap_expiration").send_keys(cardMonth)
+	wobj.message('Inputing values: ' + cardMonth , config.customFileName + zcustomFileName)
+	#Credit Card Expire Year
+	fillState = browser.find_element_by_id("cybersource_soap_expiration_yr").send_keys(cardYear)
+	wobj.message('Inputing values: ' + cardYear , config.customFileName + zcustomFileName)
+	#Credit Card Code
+	fillState = browser.find_element_by_id("cybersource_soap_cc_cid").send_keys(securityNumber)
+	wobj.message('Inputing values: ' + securityNumber , config.customFileName + zcustomFileName)
+	#Next button
+	browser.find_element_by_css_selector("div#payment-buttons-container.buttons-set button.button").click()
+	wobj.message('Click Continue button, Please wait...' , config.customFileName + zcustomFileName)
+	browser.implicitly_wait(10)
+	#Place Order
+	browser.find_element_by_css_selector("div#review-buttons-container.buttons-set button.button").click()
+	wobj.message('Placing order now... ', config.customFileName + zcustomFileName)
+	browser.implicitly_wait(20)
+
 	#add some ending space
 	wobj.message(' ', config.customFileName + zcustomFileName)
-	browser.close()
+	#browser.close()
 
 
+	sys.exit()
 
