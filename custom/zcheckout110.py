@@ -52,7 +52,7 @@ def getSkusFromFile(file_name):
 	skuFile = file_name
 	logPath = '../log/'
 	#Opening clean file
-	f3 = open( logPath +skuFile+'.txt', "r")
+	f3 = open( logPath +skuFile+'.csv', "r")
 	
 	for sku in f3:
 		if not sku.strip():
@@ -63,9 +63,9 @@ def getSkusFromFile(file_name):
 	return skuList
 			
 #Little list for simple testing
-productSkuList = ['193824', '196553', '199084']
+#productSkuList = ['199776', '199776', '199776']
 #Full list of skus from file
-#productSkuList = getSkusFromFile("active_product_configurables")
+productSkuList = getSkusFromFile("configurables_100812")
 
 
 #CHECKOUT STEP 1 VALUES & FUNCTIONS
@@ -177,6 +177,17 @@ for productSku in productSkuList:
 	wobj.message(wobj.httpRequestProfiler(currentUrl), config.customFileName + zcustomFileName)		
 	wobj.message('Getting product: ' + wobj.getPageTitle(currentUrl), config.customFileName + zcustomFileName)
 
+	
+	#Starting over if PDP has special options
+	#if(wobj.isElementPresent('attribute76', browser)):
+	#	wobj.message('This product has special options, not compatible with selenium checkout', config.customFileName + zcustomFileName)
+	#	wobj.message('Starting over...', config.customFileName + zcustomFileName)
+	#	print colored('Failed!  [' + productSku + ']', 'red', attrs=['bold']) 
+	#	wobj.message(' ', config.customFileName + zcustomFileName)
+	#	browser.close()
+	#	continue
+
+	#Verifying Sizes
 	wobj.message('Verifing sizes are element is present... ', config.customFileName + zcustomFileName)
 	if(wobj.isElementPresent(sizeDivId, browser)):
 		wobj.message('Size element is present!', config.customFileName + zcustomFileName)
@@ -190,8 +201,12 @@ for productSku in productSkuList:
 		#display all link id for size, for easy debugging	
 		formatList = ', '.join(productClickList)
 		wobj.message('We have the following size link id(s): ' + formatList, config.customFileName + zcustomFileName)
+		
+		
+		print productClickList
+
 		#Check for multiple sizes
-		if(len(productClickList) != 1):	
+		if(len(productClickList) != 1 or len(productClickList) != 0):	
 			randomLinkID = choice(productClickList)	
 						
 			try:
@@ -223,6 +238,9 @@ for productSku in productSkuList:
 		wobj.message('Size element is not present, try to add product to bag...', config.customFileName + zcustomFileName)
 		
 	
+	
+
+
 	try:
 		#add it to bag
 		clickAddToBag = browser.find_element_by_id(addToBagID).click()
@@ -279,7 +297,7 @@ for productSku in productSkuList:
 
 	#STEP 1
 	#let's fill out step 1 of checkout
-	print colored('STEP 1 Billing Information', 'blue', attrs=['bold'])
+	print colored('STEP 1 Billing Information:', 'blue', attrs=['bold'])
 	wobj.message('Filling out Billing Information of ONEPAGE checkout...', config.customFileName + zcustomFileName)
 	#First Name
 	clearFirst = browser.find_element_by_id("billing:firstname").clear()
@@ -341,8 +359,7 @@ for productSku in productSkuList:
 
 	#STEP 4
 	#let's fill out step 4 of checkout
-	print colored('CHECKOUT STEP 3:', 'blue', attrs=['bold'])
-	wobj.message('Filling out step 3 of checkout...', config.customFileName + zcustomFileName)
+	print colored('STEP 4 Payment Information:', 'blue', attrs=['bold'])
 	wobj.message('Filling out Payment Information of ONEPAGE checkout...', config.customFileName + zcustomFileName)
 	browser.implicitly_wait(10)
 	
@@ -369,14 +386,16 @@ for productSku in productSkuList:
 	wobj.message('Click Continue button, Please wait...' , config.customFileName + zcustomFileName)
 	browser.implicitly_wait(10)
 	#Place Order
+	print colored('STEP 5 Order Review:', 'blue', attrs=['bold'])
 	browser.find_element_by_css_selector("div#review-buttons-container.buttons-set button.button").click()
 	wobj.message('Placing order now... ', config.customFileName + zcustomFileName)
-	browser.implicitly_wait(20)
+	#Let's pause it to wait for checkout to complete (Cybersource connection)
+	time.sleep (10)
 
 	#add some ending space
 	wobj.message(' ', config.customFileName + zcustomFileName)
-	#browser.close()
+	browser.close()
 
 
-	sys.exit()
+	#sys.exit()
 
