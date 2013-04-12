@@ -29,7 +29,7 @@ import subprocess
 import shlex
 from termcolor import colored
 
-
+#from selenium.webdriver.support.ui import WebDriverWait
 #Check for BeautifulSoup module
 try:
 	from BeautifulSoup import BeautifulSoup
@@ -42,6 +42,7 @@ try:
 	from selenium import selenium
 	from selenium import webdriver
 	from selenium.common.exceptions import NoSuchElementException
+	from selenium.webdriver.support.ui import WebDriverWait
 except Exception, err: 
 	print "This module requires the selenium webdriver to be installed (http://pypi.python.org/pypi/selenium/2.0.1) "
 	sys.stderr.write('ERROR: %s\n' % str(err))
