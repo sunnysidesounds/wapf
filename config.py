@@ -14,7 +14,7 @@ import time
 
 #global configuration varibles
 #################################
-baseUrl = 'http://staging11.zumiez.com/' #make sure you have the ending slash (important!)
+baseUrl = 'http://www.julep.com/' #make sure you have the ending slash (important!)
 browser = 'firefox'
 enableWrite = 1
 today = time.strftime("%m%d%Y")
